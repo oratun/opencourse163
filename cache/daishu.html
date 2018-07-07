@@ -1,0 +1,1099 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html sthelse="http://www.w3.org/1999/xhtml"><head><script type="text/javascript" async="" src="//wr.da.netease.com/ga.js"></script><script type="text/javascript" src="https://ursdoccdn.nosdn.127.net/webzj_cdn101/message_170510.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <title>麻省理工公开课：线性代数_全35集_网易公开课</title>
+    <base target="_blank" />
+    <meta content="麻省理工公开课：线性代数,Gilbert Strang,麻省理工学院" name="keywords" />
+        <link type="text/css" rel="stylesheet" href="http://s2.open.126.net/ocb/css/style.css?_t=1418026607072" />
+    <link type="text/css" rel="stylesheet" href="http://s2.open.126.net/ocb/css/page/courseIndex.css?_t=1418026607072" />
+    <script type="text/javascript" src="http://img1.cache.netease.com/cnews/js/ntes_jslib_1.x.js?_t=1418026607072"></script>
+    <script type="text/javascript">
+    var jiathis_config={
+        data_track_clickback:true,
+        siteNum:8,
+        sm:"tsina,t163,tsohu,tqq,renren,kaixin001,douban,email",
+        title:"我在 @网易公开课 上观看《麻省理工公开课：线性代数》一门课程，一段知识之旅，我的灵魂，在路上！下载网易公开课客户端：http://m.163.com/openapp/?utm_source=weibo&amp;utm_medium=Daily_push&amp;utm_campaign=business&amp;utm_content=gongkaikelink  课程地址：",
+        url:"http://v.163.com/special/opencourse/daishu.html",
+        appkey:{
+            "tsina":"2216871876",
+            "tqq":"801125947",
+            "t163":"OE00SVvHa0nHgkut",
+            "tsouhu":"4"
+        },
+        ralateuid:{
+        "tsina":"1841881793"
+        },
+        showClose:false,
+        hideMore:true
+    }
+    </script>
+</head>
+<body>
+    <script>
+(function(){
+    var VIDEO_URL_REG=/^http(s)?:\/\/v\.163\.com\//g;
+    var OPEN_URL="//open.163.com";
+    var VIDEO_URL="//v.163.com";
+    var _url=window.location.href;
+    if(VIDEO_URL_REG.test(window.location.href)){
+        window.location.href=_url.replace(VIDEO_URL,OPEN_URL);
+    }
+})();
+(function(){
+    var PLAY_URL_REG=/^http(s)?:\/\/(open|v)\.163\.com\/movie\/\d{4}\/\d+\/[0-9A-Z]{1}\/[0-9A-Z]{1}\/([0-9A-Z]+)_([0-9A-Z]+)\.html/g;
+ if((/_touchall=1/.test(location.search)||!/auto|house|home|bbs|blog/.test(location.host))&amp;&amp;!(document.documentElement&amp;&amp;document.documentElement.getAttribute("phone"))&amp;&amp;/163\.com/.test(location.host)&amp;&amp;!/_pc=1/.test(location.search)&amp;&amp;/android.*?mobile|ipod|blackberry|bb\d+|phone/i.test(navigator.userAgent)){
+  if(PLAY_URL_REG.test(window.location.href)){
+    var _pid=RegExp.$3;
+    var _mid=RegExp.$4;
+    var _isShare=/type=share/ig.test(window.location.href);
+    if(_pid &amp;&amp; _mid){
+      var _params="?plid="+_pid+"&amp;rid="+_mid;
+      if(_isShare){
+        _params+="&amp;type=share";
+      }
+      window.location.href="http://m.open.163.com/movie"+_params;
+    }else{
+      //console.log('id not found');
+    }
+  }else{
+    document.write('&lt;meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/&gt;&lt;div style="position:fixed;width:100%;height:100%;background:#fff"&gt;&lt;div style="position:absolute;top:50%;left:0;width:100%;height:40px;margin-top:-40px;text-align:center;background:url(http://static.ws.126.net/utf8/endpage/image/loading.gif) no-repeat top center;padding-top:40px;color:#666"&gt;页面加载中 ...&lt;/div&gt;&lt;/div&gt;&lt;script src="http://static.ws.126.net/f2e/system/touchall/collect/foot~SaYvVsqAPu5d.js"'+' defer&gt;&lt;'+'/script&gt;&lt;plaintext style="display:none"&gt;');
+  }
+ }
+ 
+})();
+</script>
+<script>if((/_touchall=1/.test(location.search)||!/auto|house|home|bbs|blog/.test(location.host))&amp;&amp;!/\/dy.163.com\/v2/.test(location.href)&amp;&amp;!(document.documentElement&amp;&amp;document.documentElement.getAttribute("phone"))&amp;&amp;/163\.com/.test(location.host)&amp;&amp;!/_pc=1/.test(location.search)&amp;&amp;/android.*?mobile|ipod|blackberry|bb\d+|phone/i.test(navigator.userAgent))document.write('&lt;meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/&gt;&lt;div style="position:fixed;width:100%;height:100%;background:#fff"&gt;&lt;div style="position:absolute;top:50%;left:0;width:100%;height:40px;margin-top:-40px;text-align:center;background:url(http://img1.cache.netease.com/utf8/endpage/image/loading.gif) no-repeat top center;padding-top:40px;color:#666"&gt;页面加载中 ...&lt;/div&gt;&lt;/div&gt;&lt;script src="http://static.ws.126.net/f2e/system/touchall/collect/foot~M2Tn9VR49xqt.js"'+' defer&gt;&lt;'+'/script&gt;&lt;plaintext style="display:none"&gt;');</script>
+<!-- @SMNAV -->
+<!-- app download banner -->
+<style type="text/css">
+.u-appbanner{ z-index:100; padding:30px 20px; display:none; background:#24794b;}
+.u-appbanner.isMobile{ display:block;}
+.u-appbanner .logo{ width:305px; height:83px; background:url(http://img0.ph.126.net/xZTep95Rkn6e_GUjRw22Gg==/6608586051446202447.png) 0 0 no-repeat;}
+.u-appbanner .close{ margin:30px 0 0 25px; width:28px; height:28px; background:url(http://img0.ph.126.net/xZTep95Rkn6e_GUjRw22Gg==/6608586051446202447.png) 0 -168px no-repeat;}
+.u-appbanner .dlbtn{ margin-top:10px; width:178px; height:64px; background:url(http://img0.ph.126.net/xZTep95Rkn6e_GUjRw22Gg==/6608586051446202447.png) 0 -97px no-repeat;}
+</style>
+<div class="u-appbanner f-pr f-cb" id="j-appbanner">
+	<div class="logo f-fl"></div>
+    <a class="f-fr close" id="j-appbanner-close"></a>
+    <a class="f-fr dlbtn" href="http://v.163.com/special/phonedownload/"></a>
+</div>
+<script type="text/javascript">
+(function(g, doc) {
+	var bannerNode = doc.getElementById('j-appbanner');
+	var testAndroid = /(android)/ig,
+        testAppleIphone = /(iphone)/ig,
+        testAppleIpad = /(ipad)/ig;
+    var useragent = navigator.userAgent.toLowerCase(); 
+    var isMobile = testAndroid.test(useragent) || testAppleIphone.test(useragent) || testAppleIpad.test(useragent);
+	doc.getElementById('j-appbanner-close').onclick = function(){
+		bannerNode.style.display = 'none';
+	}	
+	if(isMobile){
+		bannerNode.className = 'u-appbanner f-cb isMobile';
+	}
+})(window, document);
+</script>
+<!-- /app download banner -->
+  <!-- 通用小导航 -->
+  <div class="g-wrap">
+    <div class="m-smnav rel">
+      <div class="g-container clear">
+        <a href="http://open.163.com" target="_blank">
+          <div tit="网易公开课" class="f-fl img"></div>
+        </a>
+        <form accept-charset="utf-8" id="j-SearchForm" target="_blank" action="https://c.open.163.com/search/search.htm">
+          <div class="search left rel j-input">
+            <label class="phold f-c9" for="j-search" style="display: block;">搜索课程、视频、策划</label>
+            <input autocomplete="off" type="text" name="query" class="inputxt j-txt" id="j-search" />
+            <input type="submit" class="subbtn f-icon" value="" />
+            <input type="hidden" name="enc" value="™" />
+          </div>
+        </form>
+        <ul class="u-nav2 right clear">
+          <li class="left li rel j-hoverdown" data-for="j-hoverdown-mycenter">
+            <a class="f-cgreen" href="http://c.open.163.com/center/myCourse.htm"><span>我的公开课</span><span class="f-icon"></span></a>
+            <ul class="hd-mycenter hide abs j-downitem">
+              <li><a class="link f-c6" href="https://vip.open.163.com/center/myOrder">我的订单</a></li>
+              <li><a class="link f-c6" href="http://c.open.163.com/center/myCourse.htm">我的课程</a></li>
+              <li><a class="link f-c6" href="http://c.open.163.com/center/myRecord.htm">播放记录</a></li>
+              <li><a class="link f-c6" href="http://c.open.163.com/center/myNotes.htm">我的笔记</a></li>
+              <li><a class="link f-c6 j-logoutBtn j-login" style="display: none;">退出</a></li>
+            </ul>
+          </li>
+          <li class="left li rel j-hoverdown">
+            <span class="f-icon f-c6"></span><span class="f-c6">关注我们</span>
+            <ul class="hd-share hide abs j-downitem clear">
+              <li class="left"><a class="shicon1" href="http://weibo.com/163open" target="_blank"></a></li>
+              <li class="left"><a class="shicon2" href="http://t.163.com/163open" target="_blank"></a></li>
+              <li class="left"><a class="shicon3" href="http://page.renren.com/698000112/?checked=true" target="_blank"></a></li>
+              <li class="left"><a class="shicon4" href="http://user.qzone.qq.com/1426115874/" target="_blank"></a></li>
+            </ul>
+          </li>
+          <li class="left li last"><a href="http://open.163.com/appdownload/" class="f-cgreen">客户端下载</a></li>
+        </ul>
+        <div class="u-nav u-login j-login right hide" style="display: none;">
+          <span class="li f-c6 j-username">opencourse@163.com</span>
+        </div>
+        <span class="u-nav u-beforelogin j-beforelogin right">
+          <span class="f-c6 li">欢迎来到网易公开课!</span>
+          <a class="f-c6 li j-loginBtn" id="urs_login_btn">登录/注册</a>
+        </span>
+      </div>
+    </div>
+    <!-- 登陆框 -->
+    <div class="hide" id="j-loginDialog">
+        <div class="tit clear f-f0">
+            <div class="left">登录网易通行证</div>
+            <a class="close right f-icon f-c3" id="j-closelogin"></a>
+        </div>
+        <div class="logarea">
+          <span class="f-c9">使用网易通行证(含网易邮箱)帐号登录</span>
+            <form method="post" target="_self" action="https://reg.163.com/logins.jsp" id="j-loginForm">
+                <div class="ipt rel" style="z-index:20">
+                  <div class="inp j-input">
+                    <input autocomplete="off" type="text" class="text j-txt" name="username" id="j-passport" />
+                    <label class="abs" for="j-passport">账号，如name@example.com</label>
+                    <ul class="suggest hide f-cb" id="j-suggest"></ul>
+                  </div>
+                </div> 
+                <div class="ipt rel" style="z-index:15">
+                  <div class="inp j-input">
+                    <input autocomplete="off" type="password" class="text j-txt" name="password" id="j-password" />
+                    <label class="abs" for="j-password">密码</label>
+                  </div>
+                </div>
+                <div class="ipt f-cb" style="z-index:10">
+                    <input class="left" type="checkbox" value="1" checked="checked" name="savelogin" id="j-autologin" />
+                    <label class="left f-c9" for="j-autologin">自动登录</label>
+                  <a class="right f-c6" style="line-height:1;" href="http://reg.163.com/RecoverPasswd1.shtml">忘记密码？</a>
+              </div>
+          <div class="ipt">
+            <input type="button" value="登 录" class="submitBtn" id="j-submitLogin" />
+          </div>
+          <div class="ipt">
+            <span class="f-c6">没有账号？</span>
+            <a class="f-cgreen" href="http://reg.163.com/reg/reg.jsp?product=open">立即注册&gt;&gt;</a>
+          </div>
+          <input type="hidden" value="open" name="product" />
+          <input type="hidden" name="append" value="1" />
+          <input type="hidden" value="http://open.163.com/" class="url" name="url" />
+            </form>
+        </div>
+    </div>
+    <!-- /登陆框 -->
+    <!-- 确认框 -->
+    <div id="j-feedbackTip" class="u-feedbackTip f-cb" style="display:none">
+        <span class="f-ib f-fl"></span>
+        <h1 class="f-ib f-fl"></h1>
+    </div>
+    <div id="j-confirmBox" class="m-confirmBox" style="display:none">
+        <div class="box">
+            <p class="txt"></p>
+        </div>
+        <div class="btn f-cb">
+            <div class="yes f-fl">确认</div>
+            <div class="false f-fl">取消</div>
+        </div>
+    </div>
+    <!-- /确认框 -->
+  </div>
+  <script>document.domain = "163.com";</script>
+  <!-- /通用小导航 -->
+  <!-- /@SMNAV -->
+<!-- URS -->
+<script>try{window.__HOTLIST=[{"desc":"无国界分享的趣味演讲","displayKey":"Ted","searchKey":"Ted"},{"desc":"别想了，看开点","displayKey":"心理学","searchKey":"心理学"},{"desc":"名人野史秘闻","displayKey":"历史","searchKey":"历史"},{"desc":"数学其实很简单","displayKey":"线性代数","searchKey":"线性代数"},{"desc":"读懂空气的智慧","displayKey":"如何好好说话","searchKey":"一个更好的交谈者"},{"desc":"如何让自己看起来更好","displayKey":"提升自信的技巧","searchKey":"提升自信的技巧"},{"desc":"精彩的演讲正在慢慢地进行中","displayKey":"演讲","searchKey":"演讲"},{"desc":"如何走人生路","displayKey":"我们为什么要读大学","searchKey":"我们为什么要读大学"},{"desc":"数学是科学的女王！","displayKey":"数学","searchKey":"数学"}];}catch(e){window.__HOTLIST=[];}</script>
+<script type="text/javascript">
+    window.openCourse = (function(_oc){
+        var _loadScript=function(url, callback) {
+            var head = document.head || document.getElementsByTagName("head")[0] || document.documentElement,
+                script,
+                options;
+            if (typeof url === "object") {
+                options = url;
+                url = undefined;
+            }
+            var s = options || {};
+            url = url || s.url;
+            callback = callback || s.success;
+            script = document.createElement("script");
+            script.async = s.async || false;
+            script.type = "text/javascript";
+            if (s.charset) {
+                script.charset = s.charset;
+            }
+            if (s.cache === false) {
+                url = url + (/\?/.test(url) ? "&amp;" : "?") + "_="+(new Date()).getTime();
+            }
+            script.src = url;
+            head.insertBefore(script, head.firstChild);
+            if (callback) {
+                document.addEventListener ? script.addEventListener("load", callback, false) : script.onreadystatechange = function() {
+                    if (/loaded|complete/.test(script.readyState)) {
+                        script.onreadystatechange = null
+                        callback()
+                    }
+                }
+            }
+        }
+        var _initURS=function(){
+            var urs = new URS(_config);
+    	    urs.logincb = function(_username){
+    	      location.reload();
+    	    }
+    	    urs.regcb = function(_username){
+    	      location.reload();
+    	    }
+    	    _oc._urs = urs;
+            _oc._ursInstance= urs;
+        }
+	var _config = {
+	       skin : '1',// 皮肤
+	       product : 'open', // 产品名称
+	       promark : 'hQvjXOs',// 产品ID
+           productkey : '6468f58024d1d5cf7bba762df23e3c97',
+	       host : 'open.163.com',// 产品host
+	       page : 'login',// 首屏
+	       bid : 'urs_login_btn',
+	       eventType : 'click',
+           isHttps:1,
+	       single : 0,// 是否只用一个模块，1是，0否
+           cssDomain:'https://s2.open.163.com/',
+           cssFiles: 'ocb/css/page/loginIframe.css',
+           needUnLogin:1,
+           unLoginTime:10,
+           oauthLoginConfig:[
+                { 'name' : 'weibo', 'url' : 'https://reg.163.com/outerLogin/oauth2/connect.do?target=3&amp;url=https%3A%2F%2Fwebzj.reg.163.com%2Fwebapp%2Fres%2Fstatichtml%2Fthird.html&amp;url2=https%3A%2F%2Fwebzj.reg.163.com%2Fwebapp%2Fres%2Fstatichtml%2Fthird.html&amp;product=open_wap' },
+                { 'name' : 'weixin', 'url' : 'https://reg.163.com/outerLogin/oauth2/connect.do?target=13&amp;url=https%3A%2F%2Fwebzj.reg.163.com%2Fwebapp%2Fres%2Fstatichtml%2Fthird.html&amp;url2=https%3A%2F%2Fwebzj.reg.163.com%2Fwebapp%2Fres%2Fstatichtml%2Fthird.html&amp;product=open_wap' }
+           ]
+	};
+	if(window['URS']){
+	    _initURS();
+	}else{
+	    _loadScript({url:'https://ursdoccdn.nosdn.127.net/webzj_cdn101/message_170510.js'},_initURS);
+	}
+	return _oc;
+    })(window.openCourse || {});
+</script>
+<!-- /URS -->
+<!-- 2018-07-06 23:21:58 -->
+    <!-- head part -->
+    <div class="u-breadnav">
+        <div class="g-container">
+            <a href="                      http://open.163.com/ocw/&#10;                    " target="_blank" class="link f-c9">国际名校公开课</a>
+            <span class="f-icon sp"></span>
+            <span class="pos f-f0 f-c3">麻省理工公开课：线性代数</span>
+        </div>
+    </div>
+    <!-- /head part -->
+    <div class="mainwrap">
+        <div class="m-cintro f-cb">
+            <img src="http://img4.cache.netease.com/video/2012/9/28/20120928170543f8989.jpg" width="380" height="285" alt="麻省理工公开课：线性代数" />
+            <div class="m-cdes">
+                <h2>麻省理工公开课：线性代数</h2>
+                <p>本课程共35集 翻译完 欢迎学习</p>
+                <span class="blank20"></span>
+                <p>课程介绍</p>
+                <p>“线性代数”，同微积分一样，是高等数学中两大入门课程之一，不仅是一门非常好的数学课程，也是一门非常好的工具学科，在很多领域都有广泛的用途。本课程讲述了矩阵理论及线性代数的基本知识，侧重于那些与其他学科相关的内容，包括方程组、向量空间、行列式、特征值、相似矩阵及正定矩阵。</p> <b></b>
+                
+                                                  <a href="http://open.163.com/movie/2010/11/7/3/M6V0BQC4M_M6V29E773.html" class="plybtn"></a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <div class="u-cshare f-cb">
+                    <!-- 分享 -->
+                    <div id="ckepop">
+                        <a href="http://www.jiathis.com/share?uid=1600869" class="jiathis jiathis_txt" target="_blank">
+                            <img src="http://img6.cache.netease.com/video/2012/7/4/201207041342229f333.png" border="0" />
+                        </a>
+                    </div>
+                    <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?_t=1418026607072" charset="utf-8"></script>
+                    <!-- /分享 -->
+                    <div class="ckcoll f-hide" id="j-collect">收藏</div>
+                    <div class="ckcoll2" id="j-addYunBtn"><div class="btn"></div><div class="box"><div class="nei">去“网易云课堂”查看本课程对应的学习计划</div><div class="arr"></div></div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="g-doc f-cb">
+        <div class="g-mn">
+            <div class="m-mn">
+                <div class="m-t-bg f-cb">
+                    <div class="m-t-innerbg f-cb">
+                        <h2>课程列表</h2>
+                          
+                                                   <a href="http://cimg3.163.com/edu/open/ocw/xianxingdaishu.zip" target="_self" class="download-kejian">课件打包下载</a> 
+                                            </div>
+                </div>
+                <table class="m-clist" id="list1">
+                    <tbody><tr>
+                        <th>名称</th>
+                        <th>视频下载</th>
+                    </tr>
+                                                                                                                            <tr class="u-even">
+                        <td class="u-ctitle">
+                          [第1集]
+                            <a href="http://open.163.com/movie/2010/11/7/3/M6V0BQC4M_M6V29E773.html">方程组的几何解释</a>
+                                                      <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                  </td>
+                        
+                        <td class="u-cdown">
+                                                    <a class="downbtn j-movie-download" data-mid="M6V29E773" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 方程组的几何解释"></a>
+                                                </td>
+                    </tr>
+                                                                                                         <tr class="u-odd">
+                        <td class="u-ctitle">
+                          [第2集]
+                            <a href="http://open.163.com/movie/2010/11/P/P/M6V0BQC4M_M6V29EGPP.html">矩阵消元</a>
+                                                      <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                  </td>
+                        
+                        <td class="u-cdown">
+                                                    <a class="downbtn j-movie-download" data-mid="M6V29EGPP" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 矩阵消元"></a>
+                                                </td>
+                    </tr>
+                                                                                                         <tr class="u-even">
+                        <td class="u-ctitle">
+                          [第3集]
+                            <a href="http://open.163.com/movie/2010/11/H/O/M6V0BQC4M_M6V29FCHO.html">乘法和逆矩阵</a>
+                                                      <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                  </td>
+                        
+                        <td class="u-cdown">
+                                                    <a class="downbtn j-movie-download" data-mid="M6V29FCHO" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 乘法和逆矩阵"></a>
+                                                </td>
+                    </tr>
+                                                                                                         <tr class="u-odd">
+                        <td class="u-ctitle">
+                          [第4集]
+                            <a href="http://open.163.com/movie/2010/11/3/S/M6V0BQC4M_M6V29F33S.html">A的LU分解</a>
+                                                      <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                  </td>
+                        
+                        <td class="u-cdown">
+                                                    <a class="downbtn j-movie-download" data-mid="M6V29F33S" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; A的LU分解"></a>
+                                                </td>
+                    </tr>
+                                                                                                         <tr class="u-even">
+                        <td class="u-ctitle">
+                          [第5集]
+                            <a href="http://open.163.com/movie/2010/11/J/K/M6V0BQC4M_M6V29FRJK.html">转置-置换-向量空间R</a>
+                                                      <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                  </td>
+                        
+                        <td class="u-cdown">
+                                                    <a class="downbtn j-movie-download" data-mid="M6V29FRJK" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 转置-置换-向量空间R"></a>
+                                                </td>
+                    </tr>
+                                                                                                         <tr class="u-odd">
+                        <td class="u-ctitle">
+                          [第6集]
+                            <a href="http://open.163.com/movie/2010/11/B/5/M6V0BQC4M_M6V2AB1B5.html">列空间和零空间</a>
+                                                      <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                  </td>
+                        
+                        <td class="u-cdown">
+                                                    <a class="downbtn j-movie-download" data-mid="M6V2AB1B5" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 列空间和零空间"></a>
+                                                </td>
+                    </tr>
+                                                                                                         <tr class="u-even">
+                        <td class="u-ctitle">
+                          [第7集]
+                            <a href="http://open.163.com/movie/2010/11/H/H/M6V0BQC4M_M6V2ABAHH.html">求解Ax=0：主变量、特解</a>
+                                                      <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                  </td>
+                        
+                        <td class="u-cdown">
+                                                    <a class="downbtn j-movie-download" data-mid="M6V2ABAHH" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 求解Ax=0：主变量、特解"></a>
+                                                </td>
+                    </tr>
+                                                                                                         <tr class="u-odd">
+                        <td class="u-ctitle">
+                          [第8集]
+                            <a href="http://open.163.com/movie/2010/11/V/8/M6V0BQC4M_M6V2ABHV8.html">求解Ax=b：可解性和解的结构</a>
+                                                      <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                  </td>
+                        
+                        <td class="u-cdown">
+                                                    <a class="downbtn j-movie-download" data-mid="M6V2ABHV8" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 求解Ax=b：可解性和解的结构"></a>
+                                                </td>
+                    </tr>
+                                                                                                         <tr class="u-even">
+                        <td class="u-ctitle">
+                          [第9集]
+                            <a href="http://open.163.com/movie/2010/11/C/T/M6V0BQC4M_M6V2ACDCT.html">线性相关性、基、维数</a>
+                                                      <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                  </td>
+                        
+                        <td class="u-cdown">
+                                                    <a class="downbtn j-movie-download" data-mid="M6V2ACDCT" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 线性相关性、基、维数"></a>
+                                                </td>
+                    </tr>
+                                                                                                         <tr class="u-odd">
+                        <td class="u-ctitle">
+                          [第10集]
+                            <a href="http://open.163.com/movie/2010/11/D/T/M6V0BQC4M_M6V2ADFDT.html">四个基本子空间</a>
+                                                      <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                  </td>
+                        
+                        <td class="u-cdown">
+                                                    <a class="downbtn j-movie-download" data-mid="M6V2ADFDT" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 四个基本子空间"></a>
+                                                </td>
+                    </tr>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   </tbody></table>
+                <table class="m-clist" id="list2" style="display:none">
+                    <tbody><tr>
+                        <th>名称</th>
+                        <th>视频下载</th>
+                    </tr>
+                                                                                                        <tr class="u-even">
+                        <td class="u-ctitle">
+                            [第1集]
+                            <a href="http://open.163.com/movie/2010/11/7/3/M6V0BQC4M_M6V29E773.html">方程组的几何解释</a>
+                                                        <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                    </td>
+            
+                        <td class="u-cdown">
+                                                        <a class="downbtn j-movie-download" data-mid="M6V29E773" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 方程组的几何解释"></a>
+                                                    </td>
+                    </tr>
+                                                                                    <tr class="u-odd">
+                        <td class="u-ctitle">
+                            [第2集]
+                            <a href="http://open.163.com/movie/2010/11/P/P/M6V0BQC4M_M6V29EGPP.html">矩阵消元</a>
+                                                        <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                    </td>
+            
+                        <td class="u-cdown">
+                                                        <a class="downbtn j-movie-download" data-mid="M6V29EGPP" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 矩阵消元"></a>
+                                                    </td>
+                    </tr>
+                                                                                    <tr class="u-even">
+                        <td class="u-ctitle">
+                            [第3集]
+                            <a href="http://open.163.com/movie/2010/11/H/O/M6V0BQC4M_M6V29FCHO.html">乘法和逆矩阵</a>
+                                                        <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                    </td>
+            
+                        <td class="u-cdown">
+                                                        <a class="downbtn j-movie-download" data-mid="M6V29FCHO" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 乘法和逆矩阵"></a>
+                                                    </td>
+                    </tr>
+                                                                                    <tr class="u-odd">
+                        <td class="u-ctitle">
+                            [第4集]
+                            <a href="http://open.163.com/movie/2010/11/3/S/M6V0BQC4M_M6V29F33S.html">A的LU分解</a>
+                                                        <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                    </td>
+            
+                        <td class="u-cdown">
+                                                        <a class="downbtn j-movie-download" data-mid="M6V29F33S" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; A的LU分解"></a>
+                                                    </td>
+                    </tr>
+                                                                                    <tr class="u-even">
+                        <td class="u-ctitle">
+                            [第5集]
+                            <a href="http://open.163.com/movie/2010/11/J/K/M6V0BQC4M_M6V29FRJK.html">转置-置换-向量空间R</a>
+                                                        <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                    </td>
+            
+                        <td class="u-cdown">
+                                                        <a class="downbtn j-movie-download" data-mid="M6V29FRJK" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 转置-置换-向量空间R"></a>
+                                                    </td>
+                    </tr>
+                                                                                    <tr class="u-odd">
+                        <td class="u-ctitle">
+                            [第6集]
+                            <a href="http://open.163.com/movie/2010/11/B/5/M6V0BQC4M_M6V2AB1B5.html">列空间和零空间</a>
+                                                        <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                    </td>
+            
+                        <td class="u-cdown">
+                                                        <a class="downbtn j-movie-download" data-mid="M6V2AB1B5" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 列空间和零空间"></a>
+                                                    </td>
+                    </tr>
+                                                                                    <tr class="u-even">
+                        <td class="u-ctitle">
+                            [第7集]
+                            <a href="http://open.163.com/movie/2010/11/H/H/M6V0BQC4M_M6V2ABAHH.html">求解Ax=0：主变量、特解</a>
+                                                        <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                    </td>
+            
+                        <td class="u-cdown">
+                                                        <a class="downbtn j-movie-download" data-mid="M6V2ABAHH" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 求解Ax=0：主变量、特解"></a>
+                                                    </td>
+                    </tr>
+                                                                                    <tr class="u-odd">
+                        <td class="u-ctitle">
+                            [第8集]
+                            <a href="http://open.163.com/movie/2010/11/V/8/M6V0BQC4M_M6V2ABHV8.html">求解Ax=b：可解性和解的结构</a>
+                                                        <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                    </td>
+            
+                        <td class="u-cdown">
+                                                        <a class="downbtn j-movie-download" data-mid="M6V2ABHV8" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 求解Ax=b：可解性和解的结构"></a>
+                                                    </td>
+                    </tr>
+                                                                                    <tr class="u-even">
+                        <td class="u-ctitle">
+                            [第9集]
+                            <a href="http://open.163.com/movie/2010/11/C/T/M6V0BQC4M_M6V2ACDCT.html">线性相关性、基、维数</a>
+                                                        <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                    </td>
+            
+                        <td class="u-cdown">
+                                                        <a class="downbtn j-movie-download" data-mid="M6V2ACDCT" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 线性相关性、基、维数"></a>
+                                                    </td>
+                    </tr>
+                                                                                    <tr class="u-odd">
+                        <td class="u-ctitle">
+                            [第10集]
+                            <a href="http://open.163.com/movie/2010/11/D/T/M6V0BQC4M_M6V2ADFDT.html">四个基本子空间</a>
+                                                        <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                    </td>
+            
+                        <td class="u-cdown">
+                                                        <a class="downbtn j-movie-download" data-mid="M6V2ADFDT" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 四个基本子空间"></a>
+                                                    </td>
+                    </tr>
+                                                                                    <tr class="u-even">
+                        <td class="u-ctitle">
+                            [第11集]
+                            <a href="http://open.163.com/movie/2010/11/2/T/M6V0BQC4M_M6V2AJS2T.html">矩阵空间、秩1矩阵和小世界图</a>
+                                                        <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                    </td>
+            
+                        <td class="u-cdown">
+                                                        <a class="downbtn j-movie-download" data-mid="M6V2AJS2T" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 矩阵空间、秩1矩阵和小世界图"></a>
+                                                    </td>
+                    </tr>
+                                                                                    <tr class="u-odd">
+                        <td class="u-ctitle">
+                            [第12集]
+                            <a href="http://open.163.com/movie/2010/11/T/E/M6V0BQC4M_M6V2AIUTE.html">图和网络</a>
+                                                        <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                    </td>
+            
+                        <td class="u-cdown">
+                                                        <a class="downbtn j-movie-download" data-mid="M6V2AIUTE" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 图和网络"></a>
+                                                    </td>
+                    </tr>
+                                                                                    <tr class="u-even">
+                        <td class="u-ctitle">
+                            [第13集]
+                            <a href="http://open.163.com/movie/2010/11/9/K/M6V0BQC4M_M6V2AJ69K.html">复习一</a>
+                                                        <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                    </td>
+            
+                        <td class="u-cdown">
+                                                        <a class="downbtn j-movie-download" data-mid="M6V2AJ69K" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 复习一"></a>
+                                                    </td>
+                    </tr>
+                                                                                    <tr class="u-odd">
+                        <td class="u-ctitle">
+                            [第14集]
+                            <a href="http://open.163.com/movie/2010/11/M/H/M6V0BQC4M_M6V2AJEMH.html">正交向量与子空间</a>
+                                                        <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                    </td>
+            
+                        <td class="u-cdown">
+                                                        <a class="downbtn j-movie-download" data-mid="M6V2AJEMH" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 正交向量与子空间"></a>
+                                                    </td>
+                    </tr>
+                                                                                    <tr class="u-even">
+                        <td class="u-ctitle">
+                            [第15集]
+                            <a href="http://open.163.com/movie/2010/11/J/U/M6V0BQC4M_M6V2AJLJU.html">子空间投影</a>
+                                                        <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                    </td>
+            
+                        <td class="u-cdown">
+                                                        <a class="downbtn j-movie-download" data-mid="M6V2AJLJU" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 子空间投影"></a>
+                                                    </td>
+                    </tr>
+                                                                                    <tr class="u-odd">
+                        <td class="u-ctitle">
+                            [第16集]
+                            <a href="http://open.163.com/movie/2010/11/P/U/M6V0BQC4M_M6V2AOJPU.html">投影矩阵和最小二乘</a>
+                                                        <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                    </td>
+            
+                        <td class="u-cdown">
+                                                        <a class="downbtn j-movie-download" data-mid="M6V2AOJPU" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 投影矩阵和最小二乘"></a>
+                                                    </td>
+                    </tr>
+                                                                                    <tr class="u-even">
+                        <td class="u-ctitle">
+                            [第17集]
+                            <a href="http://open.163.com/movie/2010/11/L/S/M6V0BQC4M_M6V2AORLS.html">正交矩阵和Gram-Schmidt正交化</a>
+                                                        <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                    </td>
+            
+                        <td class="u-cdown">
+                                                        <a class="downbtn j-movie-download" data-mid="M6V2AORLS" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 正交矩阵和Gram-Schmidt正交化"></a>
+                                                    </td>
+                    </tr>
+                                                                                    <tr class="u-odd">
+                        <td class="u-ctitle">
+                            [第18集]
+                            <a href="http://open.163.com/movie/2010/11/5/0/M6V0BQC4M_M6V2AP150.html">行列式及其性质</a>
+                                                        <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                    </td>
+            
+                        <td class="u-cdown">
+                                                        <a class="downbtn j-movie-download" data-mid="M6V2AP150" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 行列式及其性质"></a>
+                                                    </td>
+                    </tr>
+                                                                                    <tr class="u-even">
+                        <td class="u-ctitle">
+                            [第19集]
+                            <a href="http://open.163.com/movie/2010/11/3/4/M6V0BQC4M_M6V2APP34.html">行列式公式和代数余子式</a>
+                                                        <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                    </td>
+            
+                        <td class="u-cdown">
+                                                        <a class="downbtn j-movie-download" data-mid="M6V2APP34" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 行列式公式和代数余子式"></a>
+                                                    </td>
+                    </tr>
+                                                                                    <tr class="u-odd">
+                        <td class="u-ctitle">
+                            [第20集]
+                            <a href="http://open.163.com/movie/2010/11/0/C/M6V0BQC4M_M6V2AQ40C.html">克拉默法则、逆矩阵、体积</a>
+                                                        <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                    </td>
+            
+                        <td class="u-cdown">
+                                                        <a class="downbtn j-movie-download" data-mid="M6V2AQ40C" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 克拉默法则、逆矩阵、体积"></a>
+                                                    </td>
+                    </tr>
+                                                                                    <tr class="u-even">
+                        <td class="u-ctitle">
+                            [第21集]
+                            <a href="http://open.163.com/movie/2010/11/R/8/M6V0BQC4M_M6V2AV2R8.html">特征值和特征向量</a>
+                                                        <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                    </td>
+            
+                        <td class="u-cdown">
+                                                        <a class="downbtn j-movie-download" data-mid="M6V2AV2R8" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 特征值和特征向量"></a>
+                                                    </td>
+                    </tr>
+                                                                                    <tr class="u-odd">
+                        <td class="u-ctitle">
+                            [第22集]
+                            <a href="http://open.163.com/movie/2010/11/G/L/M6V0BQC4M_M6V2AV6GL.html">对角化和A的幂</a>
+                                                        <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                    </td>
+            
+                        <td class="u-cdown">
+                                                        <a class="downbtn j-movie-download" data-mid="M6V2AV6GL" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 对角化和A的幂"></a>
+                                                    </td>
+                    </tr>
+                                                                                    <tr class="u-even">
+                        <td class="u-ctitle">
+                            [第23集]
+                            <a href="http://open.163.com/movie/2010/11/B/M/M6V0BQC4M_M6V2AVIBM.html">微分方程和exp(At)</a>
+                                                        <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                    </td>
+            
+                        <td class="u-cdown">
+                                                        <a class="downbtn j-movie-download" data-mid="M6V2AVIBM" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 微分方程和exp(At)"></a>
+                                                    </td>
+                    </tr>
+                                                                                    <tr class="u-odd">
+                        <td class="u-ctitle">
+                            [第24集]
+                            <a href="http://open.163.com/movie/2010/11/A/V/M6V0BQC4M_M6V2AVOAV.html">马尔可夫矩阵;.傅立叶级数</a>
+                                                        <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                    </td>
+            
+                        <td class="u-cdown">
+                                                        <a class="downbtn j-movie-download" data-mid="M6V2AVOAV" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 马尔可夫矩阵;.傅立叶级数"></a>
+                                                    </td>
+                    </tr>
+                                                                                    <tr class="u-even">
+                        <td class="u-ctitle">
+                            [第25集]
+                            <a href="http://open.163.com/movie/2010/11/6/P/M6V0BQC4M_M7E4C9V6P.html">复习二</a>
+                                                        <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                    </td>
+            
+                        <td class="u-cdown">
+                                                        <a class="downbtn j-movie-download" data-mid="M7E4C9V6P" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 复习二"></a>
+                                                    </td>
+                    </tr>
+                                                                                    <tr class="u-odd">
+                        <td class="u-ctitle">
+                            [第26集]
+                            <a href="http://open.163.com/movie/2010/11/L/4/M6V0BQC4M_M6V2AVUL4.html">对称矩阵及正定性</a>
+                                                        <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                    </td>
+            
+                        <td class="u-cdown">
+                                                        <a class="downbtn j-movie-download" data-mid="M6V2AVUL4" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 对称矩阵及正定性"></a>
+                                                    </td>
+                    </tr>
+                                                                                    <tr class="u-even">
+                        <td class="u-ctitle">
+                            [第27集]
+                            <a href="http://open.163.com/movie/2010/11/7/7/M6V0BQC4M_M6V2B4U77.html">复数矩阵和快速傅里叶变换</a>
+                                                        <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                    </td>
+            
+                        <td class="u-cdown">
+                                                        <a class="downbtn j-movie-download" data-mid="M6V2B4U77" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 复数矩阵和快速傅里叶变换"></a>
+                                                    </td>
+                    </tr>
+                                                                                    <tr class="u-odd">
+                        <td class="u-ctitle">
+                            [第28集]
+                            <a href="http://open.163.com/movie/2010/11/3/P/M6V0BQC4M_M6V2B5J3P.html">正定矩阵和最小值</a>
+                                                        <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                    </td>
+            
+                        <td class="u-cdown">
+                                                        <a class="downbtn j-movie-download" data-mid="M6V2B5J3P" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 正定矩阵和最小值"></a>
+                                                    </td>
+                    </tr>
+                                                                                    <tr class="u-even">
+                        <td class="u-ctitle">
+                            [第29集]
+                            <a href="http://open.163.com/movie/2010/11/K/E/M6V0BQC4M_M6V2B5OKE.html">相似矩阵和若尔当形</a>
+                                                        <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                    </td>
+            
+                        <td class="u-cdown">
+                                                        <a class="downbtn j-movie-download" data-mid="M6V2B5OKE" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 相似矩阵和若尔当形"></a>
+                                                    </td>
+                    </tr>
+                                                                                    <tr class="u-odd">
+                        <td class="u-ctitle">
+                            [第30集]
+                            <a href="http://open.163.com/movie/2010/11/1/G/M6V0BQC4M_M6V2B5R1G.html">奇异值分解</a>
+                                                        <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                    </td>
+            
+                        <td class="u-cdown">
+                                                        <a class="downbtn j-movie-download" data-mid="M6V2B5R1G" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 奇异值分解"></a>
+                                                    </td>
+                    </tr>
+                                                                                    <tr class="u-even">
+                        <td class="u-ctitle">
+                            [第31集]
+                            <a href="http://open.163.com/movie/2010/11/P/J/M6V0BQC4M_M6V2B60PJ.html">线性变换及对应矩阵</a>
+                                                        <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                    </td>
+            
+                        <td class="u-cdown">
+                                                        <a class="downbtn j-movie-download" data-mid="M6V2B60PJ" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 线性变换及对应矩阵"></a>
+                                                    </td>
+                    </tr>
+                                                                                    <tr class="u-odd">
+                        <td class="u-ctitle">
+                            [第32集]
+                            <a href="http://open.163.com/movie/2010/11/4/Q/M6V0BQC4M_M6V2BA04Q.html">基变换和图像压缩</a>
+                                                        <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                    </td>
+            
+                        <td class="u-cdown">
+                                                        <a class="downbtn j-movie-download" data-mid="M6V2BA04Q" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 基变换和图像压缩"></a>
+                                                    </td>
+                    </tr>
+                                                                                    <tr class="u-even">
+                        <td class="u-ctitle">
+                            [第33集]
+                            <a href="http://open.163.com/movie/2010/11/N/8/M6V0BQC4M_M6V2BA6N8.html">单元检测3复习</a>
+                                                        <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                    </td>
+            
+                        <td class="u-cdown">
+                                                        <a class="downbtn j-movie-download" data-mid="M6V2BA6N8" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 单元检测3复习"></a>
+                                                    </td>
+                    </tr>
+                                                                                    <tr class="u-odd">
+                        <td class="u-ctitle">
+                            [第34集]
+                            <a href="http://open.163.com/movie/2010/11/Q/9/M6V0BQC4M_M6V2BADQ9.html">左右逆和伪逆</a>
+                                                        <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                    </td>
+            
+                        <td class="u-cdown">
+                                                        <a class="downbtn j-movie-download" data-mid="M6V2BADQ9" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 左右逆和伪逆"></a>
+                                                    </td>
+                    </tr>
+                                                                                    <tr class="u-even">
+                        <td class="u-ctitle">
+                            [第35集]
+                            <a href="http://open.163.com/movie/2010/11/1/H/M6V0BQC4M_M6V2BAN1H.html">期末复习</a>
+                                                        <img src="http://img1.cache.netease.com/v/2011/1414.png" class="isyy" />
+                                                    </td>
+            
+                        <td class="u-cdown">
+                                                        <a class="downbtn j-movie-download" data-mid="M6V2BAN1H" data-plid="M6V0BQC4M" data-name="麻省理工公开课：线性代数 &gt; 期末复习"></a>
+                                                    </td>
+                    </tr>
+                                     </tbody></table>
+                                <div class="u-seemore">查看全部</div>
+                            </div>
+            <span class="blank20"></span>
+            <div class="m-mnc">
+                <div class="m-tag2 f-cb" id="navbt1"> 
+                       <span class="blank12"></span>
+                    <!-- 跟贴区 -->
+                    <script type="text/javascript" language="javascript">//&lt;![CDATA[
+var tieChannel = "v",isStrict = true;
+//]]&gt;</script>
+<style type="text/css">
+.tie-area{padding:0 15px;margin:5px 10px;}
+</style>
+<div id="comment-jssdk-target"><div id="tieArea" class="tie-area"><div class="tie-title-bar" style=""><strong></strong><span class="tie-info"><a href="http://comment.v.163.com/video_bbs/SPEC0085700R2O20.html" class="tie-actCount" target="_blank" statistic="GTnews_top_tieCount">5890</a>人跟贴<span class="info-line"> | </span><a href="http://comment.v.163.com/video_bbs/SPEC0085700R2O20.html" class="tie-actCount" target="_blank" statistic="GTnews_top_tieJion">48288</a>人参与 </span></div><div class="tie-hot" id="hot-posts" style=""><div class="hot-head"><h2>热门跟贴</h2><a class="tie-rule" href="http://tie.163.com/gt/special/zlgytest/" target="_blank">跟贴用户自律公约&gt;&gt;</a></div><div class="tie-list"><div class="single-tie " data-post-id="SPEC0085700R2O20_32324436"><div class="photo z-dflt"></div><div class="tie-bdy"><div class="bdy-inner"><div class="tie-author"><span class="name-desp">网易陕西省西安网友</span><span class="name-ip">ip:221.11.*.*</span><span class="tie-time">2011-07-26 03:13:36</span></div><div class="floor-tie"><div class="floor-tie-self"><div class="tie-author"><span class="name-desp"><a class="name" href="http://tie.163.com/reply/myaction.jsp?action=reply&amp;username=360002&amp;userId=360002&amp;f=gentienickname" target="_blank" statistic="GTnews_authNickname">草根老朽</a>[网易湖北省武汉网友]</span><span class="floor-NO">1</span></div><p class="tie-cnt">一个月过去了，居然还翻译到15集，网易为什么会这么慢？？？？<br />难道只是为了博取点击率，博取开始的那一点彩头吗 ？？？？/<br />希望网易能够象开始一样，把事情做好，做的完善，再接再厉翻译完！<br />不要留下骂名！！！！！！！<br />不要辜负了国人对你们的期盼！！！！</p><div class="tool-bar "><ul class="m-tool" data-post-id="SPEC0085700R2O20_32312591" data-post-order="1"><li><span class="add-one">+1</span><a href="javascript:void(0);" class="tie-operate operate-top up-btn" target="_self">顶<span class="u-num" data-post-up="303">[303]</span></a></li><li><span class="del-one">-1</span><a href="javascript:void(0)" class="tie-operate down-btn" target="_self">踩<span class="u-num" data-post-down="1733">[1733]</span></a></li><li><a href="javascript:void(0)" class="tie-operate reply-btn" statistic="GTnews_reply" target="_self">回复</a><div class="arrow" style="display:none;"><span class="arrow-top"></span><span class="arrow-btm"></span></div></li><li><a href="javascript:void(0)" class="tie-operate share-btn" statistic="GTnews_share" target="_self">分享</a></li></ul></div></div></div><p class="tie-cnt">我看到这里有呢么多课程，而且听说他们都是无偿翻译的，想来翻译的人应该不多。。如果那些翻译人员看到说，因为自己细心负责的翻译而造成翻译速度比较慢，这样就要遭到骂名，心，会寒的吧。真希望多一点体谅，多一点耐心，多一点包容。</p><div class="tie-from">来自：<a href="http://open.163.com/special/opencourse/daishu.html" class="from-link" target="_blank" title="麻省：线性代数" statis="GTtie_relatedPost">麻省：线性代数</a></div><div class="tool-bar "><ul class="m-tool" data-post-id="SPEC0085700R2O20_32324436" data-post-order="2"><li><span class="add-one">+1</span><a href="javascript:void(0);" class="tie-operate operate-top up-btn" target="_self">顶<span class="u-num" data-post-up="6328">[6328]</span></a></li><li><span class="del-one">-1</span><a href="javascript:void(0)" class="tie-operate down-btn" target="_self">踩<span class="u-num" data-post-down="131">[131]</span></a></li><li><a href="javascript:void(0)" class="tie-operate reply-btn" statistic="GTnews_reply" target="_self">回复</a><div class="arrow" style="display:none;"><span class="arrow-top"></span><span class="arrow-btm"></span></div></li><li><a href="javascript:void(0)" class="tie-operate share-btn" statistic="GTnews_share" target="_self">分享</a></li></ul></div></div></div></div><div class="single-tie z-only-one" data-post-id="SPEC0085700R2O20_32365766"><div class="photo "><a href="http://tie.163.com/reply/myaction.jsp?action=reply&amp;username=6213701&amp;userId=6213701&amp;f=gentieavatar" class="photo-link" target="_blank" statistic="GTnews_authAvatar"><img src="http://mimg.126.net/p/butter/1008031648/img/face_big.gif" /></a></div><div class="tie-bdy"><div class="bdy-inner"><div class="tie-author"><a class="name" href="http://tie.163.com/reply/myaction.jsp?action=reply&amp;username=6213701&amp;userId=6213701&amp;f=gentienickname" target="_blank" statistic="GTnews_authNickname">cncn555</a><span class="name-desp">[网易内蒙古自治区呼和浩特网友]</span><span class="tie-time">2011-12-27 12:42:16</span></div><p class="tie-cnt">外国老师讲课的厉害在于让你能听懂让你觉得自己挺有希望的 中国老师讲课的厉害在于让你听不懂然后开始怀疑自己的智商问题</p><div class="tie-from">来自：<a href="http://open.163.com/special/opencourse/daishu.html" class="from-link" target="_blank" title="麻省：线性代数" statis="GTtie_relatedPost">麻省：线性代数</a></div><div class="tool-bar "><ul class="m-tool" data-post-id="SPEC0085700R2O20_32365766" data-post-order="1"><li><span class="add-one">+1</span><a href="javascript:void(0);" class="tie-operate operate-top up-btn" target="_self">顶<span class="u-num" data-post-up="2979">[2979]</span></a></li><li><span class="del-one">-1</span><a href="javascript:void(0)" class="tie-operate down-btn" target="_self">踩<span class="u-num" data-post-down="121">[121]</span></a></li><li><a href="javascript:void(0)" class="tie-operate reply-btn" statistic="GTnews_reply" target="_self">回复</a><div class="arrow" style="display:none;"><span class="arrow-top"></span><span class="arrow-btm"></span></div></li><li><a href="javascript:void(0)" class="tie-operate share-btn" statistic="GTnews_share" target="_self">分享</a></li></ul></div></div></div></div><div class="single-tie z-only-one" data-post-id="SPEC0085700R2O20_32299626"><div class="photo z-dflt"><a href="http://tie.163.com/reply/myaction.jsp?action=reply&amp;username=360002&amp;userId=360002&amp;f=gentieavatar" class="photo-link" target="_blank" statistic="GTnews_authAvatar"> </a></div><div class="tie-bdy"><div class="bdy-inner"><div class="tie-author"><a class="name" href="http://tie.163.com/reply/myaction.jsp?action=reply&amp;username=360002&amp;userId=360002&amp;f=gentienickname" target="_blank" statistic="GTnews_authNickname">草根老朽</a><span class="name-desp">[网易广东省广州网友]</span><span class="tie-time">2011-04-30 12:11:05</span></div><p class="tie-cnt">网易的翻译工作给国人做了巨大的贡献，实在是功在当代，利在千秋的大事情。对此国人表示感谢！</p><div class="tie-from">来自：<a href="http://open.163.com/special/opencourse/daishu.html" class="from-link" target="_blank" title="麻省：线性代数" statis="GTtie_relatedPost">麻省：线性代数</a></div><div class="tool-bar "><ul class="m-tool" data-post-id="SPEC0085700R2O20_32299626" data-post-order="1"><li><span class="add-one">+1</span><a href="javascript:void(0);" class="tie-operate operate-top up-btn" target="_self">顶<span class="u-num" data-post-up="2725">[2725]</span></a></li><li><span class="del-one">-1</span><a href="javascript:void(0)" class="tie-operate down-btn" target="_self">踩<span class="u-num" data-post-down="51">[51]</span></a></li><li><a href="javascript:void(0)" class="tie-operate reply-btn" statistic="GTnews_reply" target="_self">回复</a><div class="arrow" style="display:none;"><span class="arrow-top"></span><span class="arrow-btm"></span></div></li><li><a href="javascript:void(0)" class="tie-operate share-btn" statistic="GTnews_share" target="_self">分享</a></li></ul></div></div></div></div></div><div class="empty-tip"><p class="tip-cnt"><span>目前没有热门跟贴</span></p></div></div><div class="tie-newest" id="new-posts" style=""><div class="newest-head"><h2>最新跟贴</h2></div><div class="tie-list"><div class="single-tie z-only-one" data-post-id="6V2ABHV8008535RB_87073026"><div class="photo z-dflt"><a href="http://tie.163.com/reply/myaction.jsp?action=reply&amp;username=80224496&amp;userId=80224496&amp;f=gentieavatar" class="photo-link" target="_blank" statistic="GTnews_authAvatar"> </a></div><div class="tie-bdy"><div class="bdy-inner"><div class="tie-author"><a class="name" href="http://tie.163.com/reply/myaction.jsp?action=reply&amp;username=80224496&amp;userId=80224496&amp;f=gentienickname" target="_blank" statistic="GTnews_authNickname">2293933523</a><span class="name-desp">[网易上海市宝山区网友]</span><span class="tie-time">2018-07-06 22:15:26</span></div><p class="tie-cnt">23分钟画图错误，零空间必定过原点。所以通解应该由过原点的平面上所有向量与平面外一特解向量Xp(当b≠0)的和，最后落在与零空间平面平行的平面上。而不是在原Xn平面上。</p><div class="tie-from">来自：<a href="http://v.163.com/movie/2010/11/V/8/M6V0BQC4M_M6V2ABHV8.html" class="from-link" target="_blank" title="麻省理工公开课：线性代数&gt;求解Ax=b：可解性和解的结构" statis="GTtie_relatedPost">麻省理工公开课：线性代数&gt;求解Ax=b：可解性和解的结构</a></div><div class="tool-bar "><ul class="m-tool" data-post-id="6V2ABHV8008535RB_87073026" data-post-order="1"><li><span class="add-one">+1</span><a href="javascript:void(0);" class="tie-operate operate-top up-btn" target="_self">顶<span class="u-num" data-post-up="0">[0]</span></a></li><li><span class="del-one">-1</span><a href="javascript:void(0)" class="tie-operate down-btn" target="_self">踩<span class="u-num" data-post-down="0">[0]</span></a></li><li><a href="javascript:void(0)" class="tie-operate reply-btn" statistic="GTnews_reply" target="_self">回复</a><div class="arrow" style="display:none;"><span class="arrow-top"></span><span class="arrow-btm"></span></div></li><li><a href="javascript:void(0)" class="tie-operate share-btn" statistic="GTnews_share" target="_self">分享</a></li></ul></div></div></div></div><div class="single-tie " data-post-id="6V2AJLJU008535RB_87072020"><div class="photo z-dflt"><a href="http://tie.163.com/reply/myaction.jsp?action=reply&amp;username=128295277&amp;userId=128295277&amp;f=gentieavatar" class="photo-link" target="_blank" statistic="GTnews_authAvatar"> </a></div><div class="tie-bdy"><div class="bdy-inner"><div class="tie-author"><a class="name" href="http://tie.163.com/reply/myaction.jsp?action=reply&amp;username=128295277&amp;userId=128295277&amp;f=gentienickname" target="_blank" statistic="GTnews_authNickname">有态度网友07Fq5J</a><span class="name-desp">[网易河南省济源网友]</span><span class="tie-time">2018-07-06 17:38:12</span></div><div class="floor-tie"><div class="floor-tie"><div class="floor-tie-self"><div class="tie-author"><span class="name-desp"><a class="name" href="http://tie.163.com/reply/myaction.jsp?action=reply&amp;username=35142623&amp;userId=35142623&amp;f=gentienickname" target="_blank" statistic="GTnews_authNickname">154788733</a>[网易浙江省湖州网友]</span><span class="floor-NO">1</span></div><p class="tie-cnt">没有人想知道当A转置乘A这个方阵不可逆的时候怎么办吗？</p><div class="tool-bar "><ul class="m-tool" data-post-id="6V2AJLJU008535RB_42966956" data-post-order="1"><li><span class="add-one">+1</span><a href="javascript:void(0);" class="tie-operate operate-top up-btn" target="_self">顶<span class="u-num" data-post-up="5">[5]</span></a></li><li><span class="del-one">-1</span><a href="javascript:void(0)" class="tie-operate down-btn" target="_self">踩<span class="u-num" data-post-down="0">[0]</span></a></li><li><a href="javascript:void(0)" class="tie-operate reply-btn" statistic="GTnews_reply" target="_self">回复</a><div class="arrow" style="display:none;"><span class="arrow-top"></span><span class="arrow-btm"></span></div></li><li><a href="javascript:void(0)" class="tie-operate share-btn" statistic="GTnews_share" target="_self">分享</a></li></ul></div></div></div><div class="floor-tie-self"><div class="tie-author"><span class="name-desp"><a class="name" href="http://tie.163.com/reply/myaction.jsp?action=reply&amp;username=121216260&amp;userId=121216260&amp;f=gentienickname" target="_blank" statistic="GTnews_authNickname">有态度网友07epQ4</a>[网易上海市浦东新区网友]</span><span class="floor-NO">2</span></div><p class="tie-cnt">我也在考虑这个问题，目前位置是按照 A 中列向量都线性无关来得，所以 At*A 是可逆的方阵。<br />我自己想了以下理解为，当At*A 不可逆时，说明 A 中列向量是线性相关的，所以直接得取 A中无关得得主列向量(pivot columns) 来构成一个A1 然后做b 到A1 上得投影p。 同时这种情况下得到得到得投影p， 对于原矩阵A ，是有无数个解可以使得  Ax=p 得。 这个情形对于拟合得意义后续课程估计会讲，暂时只能想到这里</p><div class="tool-bar "><ul class="m-tool" data-post-id="6V2AJLJU008535RB_43028739" data-post-order="2"><li><span class="add-one">+1</span><a href="javascript:void(0);" class="tie-operate operate-top up-btn" target="_self">顶<span class="u-num" data-post-up="1">[1]</span></a></li><li><span class="del-one">-1</span><a href="javascript:void(0)" class="tie-operate down-btn" target="_self">踩<span class="u-num" data-post-down="0">[0]</span></a></li><li><a href="javascript:void(0)" class="tie-operate reply-btn" statistic="GTnews_reply" target="_self">回复</a><div class="arrow" style="display:none;"><span class="arrow-top"></span><span class="arrow-btm"></span></div></li><li><a href="javascript:void(0)" class="tie-operate share-btn" statistic="GTnews_share" target="_self">分享</a></li></ul></div></div></div><p class="tie-cnt">我觉着应该是这样的：如果A是方阵不可逆，那么A的线性无关主列构成一个空间，将b投影到这个空间进行下边计算，这个时候投影矩阵的话（假设AX=b无解），肯定不是I。因为b不是向他本身所在那个空间投影，而是向C（A）投影</p><div class="tie-from">来自：<a href="http://v.163.com/movie/2010/11/J/U/M6V0BQC4M_M6V2AJLJU.html" class="from-link" target="_blank" title="麻省理工公开课：线性代数&gt;子空间投影" statis="GTtie_relatedPost">麻省理工公开课：线性代数&gt;子空间投影</a></div><div class="tool-bar "><ul class="m-tool" data-post-id="6V2AJLJU008535RB_87072020" data-post-order="3"><li><span class="add-one">+1</span><a href="javascript:void(0);" class="tie-operate operate-top up-btn" target="_self">顶<span class="u-num" data-post-up="0">[0]</span></a></li><li><span class="del-one">-1</span><a href="javascript:void(0)" class="tie-operate down-btn" target="_self">踩<span class="u-num" data-post-down="0">[0]</span></a></li><li><a href="javascript:void(0)" class="tie-operate reply-btn" statistic="GTnews_reply" target="_self">回复</a><div class="arrow" style="display:none;"><span class="arrow-top"></span><span class="arrow-btm"></span></div></li><li><a href="javascript:void(0)" class="tie-operate share-btn" statistic="GTnews_share" target="_self">分享</a></li></ul></div></div></div></div><div class="single-tie " data-post-id="6V2AJLJU008535RB_87071026"><div class="photo z-dflt"><a href="http://tie.163.com/reply/myaction.jsp?action=reply&amp;username=128295277&amp;userId=128295277&amp;f=gentieavatar" class="photo-link" target="_blank" statistic="GTnews_authAvatar"> </a></div><div class="tie-bdy"><div class="bdy-inner"><div class="tie-author"><a class="name" href="http://tie.163.com/reply/myaction.jsp?action=reply&amp;username=128295277&amp;userId=128295277&amp;f=gentienickname" target="_blank" statistic="GTnews_authNickname">有态度网友07Fq5J</a><span class="name-desp">[网易河南省济源网友]</span><span class="tie-time">2018-07-06 17:31:50</span></div><div class="floor-tie"><div class="floor-tie-self"><div class="tie-author"><span class="name-desp"><span class="flr-site">网易江西省南昌网友</span><span class="flr-ip">(59.52.*.*)</span></span><span class="floor-NO">1</span></div><p class="tie-cnt">最小二乘法的几何意义被他一说豁然开朗了</p><div class="tool-bar "><ul class="m-tool" data-post-id="6V2AJLJU008535RB_32289260" data-post-order="1"><li><span class="add-one">+1</span><a href="javascript:void(0);" class="tie-operate operate-top up-btn" target="_self">顶<span class="u-num" data-post-up="51">[51]</span></a></li><li><span class="del-one">-1</span><a href="javascript:void(0)" class="tie-operate down-btn" target="_self">踩<span class="u-num" data-post-down="1">[1]</span></a></li><li><a href="javascript:void(0)" class="tie-operate reply-btn" statistic="GTnews_reply" target="_self">回复</a><div class="arrow" style="display:none;"><span class="arrow-top"></span><span class="arrow-btm"></span></div></li><li><a href="javascript:void(0)" class="tie-operate share-btn" statistic="GTnews_share" target="_self">分享</a></li></ul></div></div></div><p class="tie-cnt">我来补充下、、、最小二乘法即将未在列空间中的b投影到列空间中进行计算。。。。不对请指正。</p><div class="tie-from">来自：<a href="http://v.163.com/movie/2010/11/J/U/M6V0BQC4M_M6V2AJLJU.html" class="from-link" target="_blank" title="麻省理工公开课：线性代数&gt;子空间投影" statis="GTtie_relatedPost">麻省理工公开课：线性代数&gt;子空间投影</a></div><div class="tool-bar "><ul class="m-tool" data-post-id="6V2AJLJU008535RB_87071026" data-post-order="2"><li><span class="add-one">+1</span><a href="javascript:void(0);" class="tie-operate operate-top up-btn" target="_self">顶<span class="u-num" data-post-up="0">[0]</span></a></li><li><span class="del-one">-1</span><a href="javascript:void(0)" class="tie-operate down-btn" target="_self">踩<span class="u-num" data-post-down="0">[0]</span></a></li><li><a href="javascript:void(0)" class="tie-operate reply-btn" statistic="GTnews_reply" target="_self">回复</a><div class="arrow" style="display:none;"><span class="arrow-top"></span><span class="arrow-btm"></span></div></li><li><a href="javascript:void(0)" class="tie-operate share-btn" statistic="GTnews_share" target="_self">分享</a></li></ul></div></div></div></div><div class="single-tie " data-post-id="6V2AQ40C008535RB_87070017"><div class="photo z-dflt"><a href="http://tie.163.com/reply/myaction.jsp?action=reply&amp;username=107594232&amp;userId=107594232&amp;f=gentieavatar" class="photo-link" target="_blank" statistic="GTnews_authAvatar"> </a></div><div class="tie-bdy"><div class="bdy-inner"><div class="tie-author"><a class="name" href="http://tie.163.com/reply/myaction.jsp?action=reply&amp;username=107594232&amp;userId=107594232&amp;f=gentienickname" target="_blank" statistic="GTnews_authNickname">有态度网友06qs7U</a><span class="name-desp">[网易北京市海淀区网友]</span><span class="tie-time">2018-07-05 11:54:12</span></div><div class="floor-tie"><div class="floor-tie"><div class="floor-tie-self"><div class="tie-author"><span class="name-desp"><a class="name" href="http://tie.163.com/reply/myaction.jsp?action=reply&amp;username=60803654&amp;userId=60803654&amp;f=gentienickname" target="_blank" statistic="GTnews_authNickname">867965605</a>[网易湖北省武汉网友]</span><span class="floor-NO">1</span></div><p class="tie-cnt">个人认为 我们的课堂缺少的就是对问题本质的理解 我们的课堂很少有这样的证明 <br />有很多时候我在课堂上不能了解本质就很烦躁（老师讲的很快 似乎我们只需知道公式就行）<br />教学方法就像让学生仅仅背化学反应式 </p><div class="tool-bar "><ul class="m-tool" data-post-id="6V2AQ40C008535RB_42959395" data-post-order="1"><li><span class="add-one">+1</span><a href="javascript:void(0);" class="tie-operate operate-top up-btn" target="_self">顶<span class="u-num" data-post-up="23">[23]</span></a></li><li><span class="del-one">-1</span><a href="javascript:void(0)" class="tie-operate down-btn" target="_self">踩<span class="u-num" data-post-down="0">[0]</span></a></li><li><a href="javascript:void(0)" class="tie-operate reply-btn" statistic="GTnews_reply" target="_self">回复</a><div class="arrow" style="display:none;"><span class="arrow-top"></span><span class="arrow-btm"></span></div></li><li><a href="javascript:void(0)" class="tie-operate share-btn" statistic="GTnews_share" target="_self">分享</a></li></ul></div></div></div><div class="floor-tie-self"><div class="tie-author"><span class="name-desp"><a class="name" href="http://tie.163.com/reply/myaction.jsp?action=reply&amp;username=42641242&amp;userId=42641242&amp;f=gentienickname" target="_blank" statistic="GTnews_authNickname">midushang</a>[网易山东省烟台手机网友]</span><span class="floor-NO">2</span></div><p class="tie-cnt">同意</p><div class="tool-bar "><ul class="m-tool" data-post-id="6V2AQ40C008535RB_42965582" data-post-order="2"><li><span class="add-one">+1</span><a href="javascript:void(0);" class="tie-operate operate-top up-btn" target="_self">顶<span class="u-num" data-post-up="28">[28]</span></a></li><li><span class="del-one">-1</span><a href="javascript:void(0)" class="tie-operate down-btn" target="_self">踩<span class="u-num" data-post-down="0">[0]</span></a></li><li><a href="javascript:void(0)" class="tie-operate reply-btn" statistic="GTnews_reply" target="_self">回复</a><div class="arrow" style="display:none;"><span class="arrow-top"></span><span class="arrow-btm"></span></div></li><li><a href="javascript:void(0)" class="tie-operate share-btn" statistic="GTnews_share" target="_self">分享</a></li></ul></div></div></div><p class="tie-cnt">因为你的老师也不懂这个东西，他们都是刷题出来的，计算规则深深刻在脑子里，博士以后的课题也不需要对这些东西追根溯源。所以并没有真正做过本质的探究。他给你的是他的做题经验（再高大上一点就是对知识应用的经验），而无法给你知识本质。并非所有老师都是这样，但是绝大多数都是这样的。</p><div class="tie-from">来自：<a href="http://v.163.com/movie/2010/11/0/C/M6V0BQC4M_M6V2AQ40C.html" class="from-link" target="_blank" title="麻省理工公开课：线性代数&gt;克拉默法则、逆矩阵、体积" statis="GTtie_relatedPost">麻省理工公开课：线性代数&gt;克拉默法则、逆矩阵、体积</a></div><div class="tool-bar "><ul class="m-tool" data-post-id="6V2AQ40C008535RB_87070017" data-post-order="3"><li><span class="add-one">+1</span><a href="javascript:void(0);" class="tie-operate operate-top up-btn" target="_self">顶<span class="u-num" data-post-up="0">[0]</span></a></li><li><span class="del-one">-1</span><a href="javascript:void(0)" class="tie-operate down-btn" target="_self">踩<span class="u-num" data-post-down="0">[0]</span></a></li><li><a href="javascript:void(0)" class="tie-operate reply-btn" statistic="GTnews_reply" target="_self">回复</a><div class="arrow" style="display:none;"><span class="arrow-top"></span><span class="arrow-btm"></span></div></li><li><a href="javascript:void(0)" class="tie-operate share-btn" statistic="GTnews_share" target="_self">分享</a></li></ul></div></div></div></div><div class="single-tie " data-post-id="6V29E773008535RB_87072008"><div class="photo z-dflt"><a href="http://tie.163.com/reply/myaction.jsp?action=reply&amp;username=129110686&amp;userId=129110686&amp;f=gentieavatar" class="photo-link" target="_blank" statistic="GTnews_authAvatar"> </a></div><div class="tie-bdy"><div class="bdy-inner"><div class="tie-author"><a class="name" href="http://tie.163.com/reply/myaction.jsp?action=reply&amp;username=129110686&amp;userId=129110686&amp;f=gentienickname" target="_blank" statistic="GTnews_authNickname">有态度网友07Ixau</a><span class="name-desp">[网易河北省廊坊手机网友]</span><span class="tie-time">2018-07-04 12:25:36</span></div><div class="floor-tie"><div class="floor-tie-self"><div class="tie-author"><span class="name-desp"><a class="name" href="http://tie.163.com/reply/myaction.jsp?action=reply&amp;username=640274&amp;userId=640274&amp;f=gentienickname" target="_blank" statistic="GTnews_authNickname">超闲</a>[网易江苏省南京网友]</span><span class="floor-NO">1</span></div><p class="tie-cnt">为什么只听到右声道而没听到左声道？有人反馈一下是否遇到同样的问题了吗？thx</p><div class="tool-bar "><ul class="m-tool" data-post-id="6V29E773008535RB_32476648" data-post-order="1"><li><span class="add-one">+1</span><a href="javascript:void(0);" class="tie-operate operate-top up-btn" target="_self">顶<span class="u-num" data-post-up="2376">[2376]</span></a></li><li><span class="del-one">-1</span><a href="javascript:void(0)" class="tie-operate down-btn" target="_self">踩<span class="u-num" data-post-down="25">[25]</span></a></li><li><a href="javascript:void(0)" class="tie-operate reply-btn" statistic="GTnews_reply" target="_self">回复</a><div class="arrow" style="display:none;"><span class="arrow-top"></span><span class="arrow-btm"></span></div></li><li><a href="javascript:void(0)" class="tie-operate share-btn" statistic="GTnews_share" target="_self">分享</a></li></ul></div></div></div><p class="tie-cnt">我还以为耳机坏了。😂</p><div class="tie-from">来自：<a href="http://v.163.com/movie/2010/11/7/3/M6V0BQC4M_M6V29E773.html" class="from-link" target="_blank" title="麻省理工公开课：线性代数&gt;方程组的几何解释" statis="GTtie_relatedPost">麻省理工公开课：线性代数&gt;方程组的几何解释</a></div><div class="tool-bar "><ul class="m-tool" data-post-id="6V29E773008535RB_87072008" data-post-order="2"><li><span class="add-one">+1</span><a href="javascript:void(0);" class="tie-operate operate-top up-btn" target="_self">顶<span class="u-num" data-post-up="0">[0]</span></a></li><li><span class="del-one">-1</span><a href="javascript:void(0)" class="tie-operate down-btn" target="_self">踩<span class="u-num" data-post-down="0">[0]</span></a></li><li><a href="javascript:void(0)" class="tie-operate reply-btn" statistic="GTnews_reply" target="_self">回复</a><div class="arrow" style="display:none;"><span class="arrow-top"></span><span class="arrow-btm"></span></div></li><li><a href="javascript:void(0)" class="tie-operate share-btn" statistic="GTnews_share" target="_self">分享</a></li></ul></div></div></div></div><div class="single-tie " data-post-id="6V29E773008535RB_43033862"><div class="photo z-dflt"><a href="http://tie.163.com/reply/myaction.jsp?action=reply&amp;username=129201654&amp;userId=129201654&amp;f=gentieavatar" class="photo-link" target="_blank" statistic="GTnews_authAvatar"> </a></div><div class="tie-bdy"><div class="bdy-inner"><div class="tie-author"><a class="name" href="http://tie.163.com/reply/myaction.jsp?action=reply&amp;username=129201654&amp;userId=129201654&amp;f=gentienickname" target="_blank" statistic="GTnews_authNickname">有态度网友07ITnS</a><span class="name-desp">[网易甘肃省手机网友]</span><span class="tie-time">2018-07-02 15:40:23</span></div><div class="floor-tie"><div class="floor-tie"><div class="floor-tie"><div class="floor-tie-self"><div class="tie-author"><span class="name-desp"><a class="name" href="http://tie.163.com/reply/myaction.jsp?action=reply&amp;username=80655800&amp;userId=80655800&amp;f=gentienickname" target="_blank" statistic="GTnews_authNickname">end7976</a>[网易山西省手机网友]</span><span class="floor-NO">1</span></div><p class="tie-cnt">课程当中用到的教程是哪本书</p><div class="tool-bar "><ul class="m-tool" data-post-id="6V29E773008535RB_43032654" data-post-order="1"><li><span class="add-one">+1</span><a href="javascript:void(0);" class="tie-operate operate-top up-btn" target="_self">顶<span class="u-num" data-post-up="0">[0]</span></a></li><li><span class="del-one">-1</span><a href="javascript:void(0)" class="tie-operate down-btn" target="_self">踩<span class="u-num" data-post-down="0">[0]</span></a></li><li><a href="javascript:void(0)" class="tie-operate reply-btn" statistic="GTnews_reply" target="_self">回复</a><div class="arrow" style="display:none;"><span class="arrow-top"></span><span class="arrow-btm"></span></div></li><li><a href="javascript:void(0)" class="tie-operate share-btn" statistic="GTnews_share" target="_self">分享</a></li></ul></div></div></div><div class="floor-tie-self"><div class="tie-author"><span class="name-desp"><a class="name" href="http://tie.163.com/reply/myaction.jsp?action=reply&amp;username=77932703&amp;userId=77932703&amp;f=gentienickname" target="_blank" statistic="GTnews_authNickname">lswawsl</a>[网易甘肃省兰州网友]</span><span class="floor-NO">2</span></div><p class="tie-cnt">《Introduction to Linear Algebra, Fourth Edition》<br />== 《线性代数导论 第四版》<br />好像网上只有原版书籍</p><div class="tool-bar "><ul class="m-tool" data-post-id="6V29E773008535RB_43032720" data-post-order="2"><li><span class="add-one">+1</span><a href="javascript:void(0);" class="tie-operate operate-top up-btn" target="_self">顶<span class="u-num" data-post-up="1">[1]</span></a></li><li><span class="del-one">-1</span><a href="javascript:void(0)" class="tie-operate down-btn" target="_self">踩<span class="u-num" data-post-down="0">[0]</span></a></li><li><a href="javascript:void(0)" class="tie-operate reply-btn" statistic="GTnews_reply" target="_self">回复</a><div class="arrow" style="display:none;"><span class="arrow-top"></span><span class="arrow-btm"></span></div></li><li><a href="javascript:void(0)" class="tie-operate share-btn" statistic="GTnews_share" target="_self">分享</a></li></ul></div></div></div><div class="floor-tie-self"><div class="tie-author"><span class="name-desp"><a class="name" href="http://tie.163.com/reply/myaction.jsp?action=reply&amp;username=127592230&amp;userId=127592230&amp;f=gentienickname" target="_blank" statistic="GTnews_authNickname">有态度网友07CKsC</a>[网易安徽省芜湖网友]</span><span class="floor-NO">3</span></div><p class="tie-cnt">超贵，体现天朝优势，我们的教材价格还是很良心的。</p><div class="tool-bar "><ul class="m-tool" data-post-id="6V29E773008535RB_43034736" data-post-order="3"><li><span class="add-one">+1</span><a href="javascript:void(0);" class="tie-operate operate-top up-btn" target="_self">顶<span class="u-num" data-post-up="1">[1]</span></a></li><li><span class="del-one">-1</span><a href="javascript:void(0)" class="tie-operate down-btn" target="_self">踩<span class="u-num" data-post-down="0">[0]</span></a></li><li><a href="javascript:void(0)" class="tie-operate reply-btn" statistic="GTnews_reply" target="_self">回复</a><div class="arrow" style="display:none;"><span class="arrow-top"></span><span class="arrow-btm"></span></div></li><li><a href="javascript:void(0)" class="tie-operate share-btn" statistic="GTnews_share" target="_self">分享</a></li></ul></div></div></div><p class="tie-cnt">不不不，你知道为什么贵吗，因为人家一生出一本书，就已经很厉害，书不仅带走视频，还有各种辅助的东西，我们老师说了，贵有贵的道理！我们呢，到处抄！</p><div class="tie-from">来自：<a href="http://v.163.com/movie/2010/11/7/3/M6V0BQC4M_M6V29E773.html" class="from-link" target="_blank" title="麻省理工公开课：线性代数&gt;方程组的几何解释" statis="GTtie_relatedPost">麻省理工公开课：线性代数&gt;方程组的几何解释</a></div><div class="tool-bar "><ul class="m-tool" data-post-id="6V29E773008535RB_43033862" data-post-order="4"><li><span class="add-one">+1</span><a href="javascript:void(0);" class="tie-operate operate-top up-btn" target="_self">顶<span class="u-num" data-post-up="1">[1]</span></a></li><li><span class="del-one">-1</span><a href="javascript:void(0)" class="tie-operate down-btn" target="_self">踩<span class="u-num" data-post-down="0">[0]</span></a></li><li><a href="javascript:void(0)" class="tie-operate reply-btn" statistic="GTnews_reply" target="_self">回复</a><div class="arrow" style="display:none;"><span class="arrow-top"></span><span class="arrow-btm"></span></div></li><li><a href="javascript:void(0)" class="tie-operate share-btn" statistic="GTnews_share" target="_self">分享</a></li></ul></div></div></div></div><div class="single-tie " data-post-id="6V29E773008535RB_43032890"><div class="photo z-dflt"><a href="http://tie.163.com/reply/myaction.jsp?action=reply&amp;username=129201654&amp;userId=129201654&amp;f=gentieavatar" class="photo-link" target="_blank" statistic="GTnews_authAvatar"> </a></div><div class="tie-bdy"><div class="bdy-inner"><div class="tie-author"><a class="name" href="http://tie.163.com/reply/myaction.jsp?action=reply&amp;username=129201654&amp;userId=129201654&amp;f=gentienickname" target="_blank" statistic="GTnews_authNickname">有态度网友07ITnS</a><span class="name-desp">[网易甘肃省手机网友]</span><span class="tie-time">2018-07-02 15:38:16</span></div><div class="floor-tie"><div class="floor-tie-self"><div class="tie-author"><span class="name-desp"><a class="name" href="http://tie.163.com/reply/myaction.jsp?action=reply&amp;username=113316041&amp;userId=113316041&amp;f=gentienickname" target="_blank" statistic="GTnews_authNickname">有态度网友06Mh39</a>[网易湖南省湘西土家族苗族自治州手机网友]</span><span class="floor-NO">1</span></div><p class="tie-cnt">我就想笑笑，他算到最后自己都算糊涂了，这种在中国初中生都会的最基本的题目拿出来讲半小时，而且还说的那么麻烦，直接用消元法不就OK了，要像他那样，那我以后是不是做一个方程组画图都要画半天，而且最后还会把自己弄糊涂，国外的老师都是这样误导学生思路的吗？</p><div class="tool-bar "><ul class="m-tool" data-post-id="6V29E773008535RB_43016100" data-post-order="1"><li><span class="add-one">+1</span><a href="javascript:void(0);" class="tie-operate operate-top up-btn" target="_self">顶<span class="u-num" data-post-up="9">[9]</span></a></li><li><span class="del-one">-1</span><a href="javascript:void(0)" class="tie-operate down-btn" target="_self">踩<span class="u-num" data-post-down="98">[98]</span></a></li><li><a href="javascript:void(0)" class="tie-operate reply-btn" statistic="GTnews_reply" target="_self">回复</a><div class="arrow" style="display:none;"><span class="arrow-top"></span><span class="arrow-btm"></span></div></li><li><a href="javascript:void(0)" class="tie-operate share-btn" statistic="GTnews_share" target="_self">分享</a></li></ul></div></div></div><p class="tie-cnt">你怕是听了10分钟，你再往下看看，我估计你和我一样听不懂了，不知道为什么总有人骄傲自大，你知道么，有人把1加1写了一本书，而你爸妈从你会说话开始就给你教会了！</p><div class="tie-from">来自：<a href="http://v.163.com/movie/2010/11/7/3/M6V0BQC4M_M6V29E773.html" class="from-link" target="_blank" title="麻省理工公开课：线性代数&gt;方程组的几何解释" statis="GTtie_relatedPost">麻省理工公开课：线性代数&gt;方程组的几何解释</a></div><div class="tool-bar "><ul class="m-tool" data-post-id="6V29E773008535RB_43032890" data-post-order="2"><li><span class="add-one">+1</span><a href="javascript:void(0);" class="tie-operate operate-top up-btn" target="_self">顶<span class="u-num" data-post-up="8">[8]</span></a></li><li><span class="del-one">-1</span><a href="javascript:void(0)" class="tie-operate down-btn" target="_self">踩<span class="u-num" data-post-down="0">[0]</span></a></li><li><a href="javascript:void(0)" class="tie-operate reply-btn" statistic="GTnews_reply" target="_self">回复</a><div class="arrow" style="display:none;"><span class="arrow-top"></span><span class="arrow-btm"></span></div></li><li><a href="javascript:void(0)" class="tie-operate share-btn" statistic="GTnews_share" target="_self">分享</a></li></ul></div></div></div></div><div class="single-tie z-only-one" data-post-id="6V2BAN1H008535RB_43031896"><div class="photo z-dflt"><a href="http://tie.163.com/reply/myaction.jsp?action=reply&amp;username=101395680&amp;userId=101395680&amp;f=gentieavatar" class="photo-link" target="_blank" statistic="GTnews_authAvatar"> </a></div><div class="tie-bdy"><div class="bdy-inner"><div class="tie-author"><a class="name" href="http://tie.163.com/reply/myaction.jsp?action=reply&amp;username=101395680&amp;userId=101395680&amp;f=gentienickname" target="_blank" statistic="GTnews_authNickname">m183****3851</a><span class="name-desp">[网易四川省手机网友]</span><span class="tie-time">2018-07-01 23:17:21</span></div><p class="tie-cnt">感慨万千……多么好的课，结束时总有一种学校必修课没有的那种不舍</p><div class="tie-from">来自：<a href="http://v.163.com/movie/2010/11/1/H/M6V0BQC4M_M6V2BAN1H.html" class="from-link" target="_blank" title="麻省理工公开课：线性代数&gt;期末复习" statis="GTtie_relatedPost">麻省理工公开课：线性代数&gt;期末复习</a></div><div class="tool-bar "><ul class="m-tool" data-post-id="6V2BAN1H008535RB_43031896" data-post-order="1"><li><span class="add-one">+1</span><a href="javascript:void(0);" class="tie-operate operate-top up-btn" target="_self">顶<span class="u-num" data-post-up="0">[0]</span></a></li><li><span class="del-one">-1</span><a href="javascript:void(0)" class="tie-operate down-btn" target="_self">踩<span class="u-num" data-post-down="0">[0]</span></a></li><li><a href="javascript:void(0)" class="tie-operate reply-btn" statistic="GTnews_reply" target="_self">回复</a><div class="arrow" style="display:none;"><span class="arrow-top"></span><span class="arrow-btm"></span></div></li><li><a href="javascript:void(0)" class="tie-operate share-btn" statistic="GTnews_share" target="_self">分享</a></li></ul></div></div></div></div><div class="single-tie " data-post-id="6V2BAN1H008535RB_43033860"><div class="photo z-dflt"><a href="http://tie.163.com/reply/myaction.jsp?action=reply&amp;username=101395680&amp;userId=101395680&amp;f=gentieavatar" class="photo-link" target="_blank" statistic="GTnews_authAvatar"> </a></div><div class="tie-bdy"><div class="bdy-inner"><div class="tie-author"><a class="name" href="http://tie.163.com/reply/myaction.jsp?action=reply&amp;username=101395680&amp;userId=101395680&amp;f=gentienickname" target="_blank" statistic="GTnews_authNickname">m183****3851</a><span class="name-desp">[网易四川省手机网友]</span><span class="tie-time">2018-07-01 22:16:50</span></div><div class="floor-tie"><div class="floor-tie"><div class="floor-tie-self"><div class="tie-author"><span class="name-desp"><span class="flr-site">网易河北省石家庄手机网友</span><span class="flr-ip">(27.185.*.*)</span></span><span class="floor-NO">1</span></div><p class="tie-cnt">我想说想SVD这么重要的东西我们的课却只字未提,我还是数学系的学生,我们上课只是按照北大那本绿皮书照本宣科地讲,然后做很多乱七八糟又抽象的习题,根本就不知道如何应用.而Strang教授却巧妙的把应用融入课程之中,把现代的精髓讲的十分透彻,确实是国内的教授们所应该借鉴学习的.感谢Strang教授,感谢网易和字幕组让我补齐了这门基础课程.也期待能有更多的好作品(比如近世代数)</p><div class="tool-bar "><ul class="m-tool" data-post-id="6V2BAN1H008535RB_32274707" data-post-order="1"><li><span class="add-one">+1</span><a href="javascript:void(0);" class="tie-operate operate-top up-btn" target="_self">顶<span class="u-num" data-post-up="4">[4]</span></a></li><li><span class="del-one">-1</span><a href="javascript:void(0)" class="tie-operate down-btn" target="_self">踩<span class="u-num" data-post-down="0">[0]</span></a></li><li><a href="javascript:void(0)" class="tie-operate reply-btn" statistic="GTnews_reply" target="_self">回复</a><div class="arrow" style="display:none;"><span class="arrow-top"></span><span class="arrow-btm"></span></div></li><li><a href="javascript:void(0)" class="tie-operate share-btn" statistic="GTnews_share" target="_self">分享</a></li></ul></div></div></div><div class="floor-tie-self"><div class="tie-author"><span class="name-desp"><span class="flr-site">网易湖北省武汉网友</span><span class="flr-ip">(120.202.*.*)</span></span><span class="floor-NO">2</span></div><p class="tie-cnt">人家2000年讲的课程除了基础部分外，其实应用现状和前景已经大不如现在了，但我们仍听着觉得开了眼界，得了真知；也许这十几年又出现了新的研究热点或者理论成果，我们又如何去探寻。相比之下，学校应该成为传播学习的主要阵地，却不如网络课程来的有用：无论是过时的还是如今流行的学术话题，在国内的教授都少有涉及，可见理论学习与实际应用的脱节，还有教育界活力的巨大差距。</p><div class="tool-bar "><ul class="m-tool" data-post-id="6V2BAN1H008535RB_32274882" data-post-order="2"><li><span class="add-one">+1</span><a href="javascript:void(0);" class="tie-operate operate-top up-btn" target="_self">顶<span class="u-num" data-post-up="7">[7]</span></a></li><li><span class="del-one">-1</span><a href="javascript:void(0)" class="tie-operate down-btn" target="_self">踩<span class="u-num" data-post-down="0">[0]</span></a></li><li><a href="javascript:void(0)" class="tie-operate reply-btn" statistic="GTnews_reply" target="_self">回复</a><div class="arrow" style="display:none;"><span class="arrow-top"></span><span class="arrow-btm"></span></div></li><li><a href="javascript:void(0)" class="tie-operate share-btn" statistic="GTnews_share" target="_self">分享</a></li></ul></div></div></div><p class="tie-cnt">深有同感……</p><div class="tie-from">来自：<a href="http://v.163.com/movie/2010/11/1/H/M6V0BQC4M_M6V2BAN1H.html" class="from-link" target="_blank" title="麻省理工公开课：线性代数&gt;期末复习" statis="GTtie_relatedPost">麻省理工公开课：线性代数&gt;期末复习</a></div><div class="tool-bar "><ul class="m-tool" data-post-id="6V2BAN1H008535RB_43033860" data-post-order="3"><li><span class="add-one">+1</span><a href="javascript:void(0);" class="tie-operate operate-top up-btn" target="_self">顶<span class="u-num" data-post-up="0">[0]</span></a></li><li><span class="del-one">-1</span><a href="javascript:void(0)" class="tie-operate down-btn" target="_self">踩<span class="u-num" data-post-down="0">[0]</span></a></li><li><a href="javascript:void(0)" class="tie-operate reply-btn" statistic="GTnews_reply" target="_self">回复</a><div class="arrow" style="display:none;"><span class="arrow-top"></span><span class="arrow-btm"></span></div></li><li><a href="javascript:void(0)" class="tie-operate share-btn" statistic="GTnews_share" target="_self">分享</a></li></ul></div></div></div></div><div class="single-tie z-only-one" data-post-id="6V2B5R1G008535RB_43031895"><div class="photo z-dflt"><a href="http://tie.163.com/reply/myaction.jsp?action=reply&amp;username=101395680&amp;userId=101395680&amp;f=gentieavatar" class="photo-link" target="_blank" statistic="GTnews_authAvatar"> </a></div><div class="tie-bdy"><div class="bdy-inner"><div class="tie-author"><a class="name" href="http://tie.163.com/reply/myaction.jsp?action=reply&amp;username=101395680&amp;userId=101395680&amp;f=gentienickname" target="_blank" statistic="GTnews_authNickname">m183****3851</a><span class="name-desp">[网易上海市杨浦区网友]</span><span class="tie-time">2018-07-01 17:19:30</span></div><p class="tie-cnt">第33课29：00有教授关于课堂上出现的错误的解释。</p><div class="tie-from">来自：<a href="http://v.163.com/movie/2010/11/1/G/M6V0BQC4M_M6V2B5R1G.html" class="from-link" target="_blank" title="麻省理工公开课：线性代数&gt;奇异值分解" statis="GTtie_relatedPost">麻省理工公开课：线性代数&gt;奇异值分解</a></div><div class="tool-bar "><ul class="m-tool" data-post-id="6V2B5R1G008535RB_43031895" data-post-order="1"><li><span class="add-one">+1</span><a href="javascript:void(0);" class="tie-operate operate-top up-btn" target="_self">顶<span class="u-num" data-post-up="0">[0]</span></a></li><li><span class="del-one">-1</span><a href="javascript:void(0)" class="tie-operate down-btn" target="_self">踩<span class="u-num" data-post-down="0">[0]</span></a></li><li><a href="javascript:void(0)" class="tie-operate reply-btn" statistic="GTnews_reply" target="_self">回复</a><div class="arrow" style="display:none;"><span class="arrow-top"></span><span class="arrow-btm"></span></div></li><li><a href="javascript:void(0)" class="tie-operate share-btn" statistic="GTnews_share" target="_self">分享</a></li></ul></div></div></div></div></div><div class="empty-tip"><p class="tip-cnt">目前没有跟贴，欢迎你发表观点</p></div><a href="http://comment.v.163.com/video_bbs/SPEC0085700R2O20.html" class="show-all-tie" target="_blank" statistic="GTnews_tiePageLink">查看全部跟贴<em>&gt;&gt;</em></a></div><div class="tie-count-bar" style=""><strong>网友跟贴</strong><span class="tie-info"><a href="http://comment.v.163.com/video_bbs/SPEC0085700R2O20.html" class="tie-actCount" target="_blank" statistic="GTnews_bottom_tieCount">5890</a>人跟贴 <span class="info-line">|</span><a href="http://comment.v.163.com/video_bbs/SPEC0085700R2O20.html" class="tie-actCount" target="_blank" statistic="GTnews_bottom_tieJion">48288</a>人参与 <span class="info-line">|</span><a href="http://m.163.com/newsapp/" target="_blank" class="tie-byMobile" statistic="GTnews_bottom_wordsLink"><em class="tie-sprite"></em>手机发跟贴</a> <span class="info-line">|</span><a href="http://reg.163.com/reg0.shtml?product=tie&amp;url=http://open.163.com/special/opencourse/daishu.html#tie-reply" class="tie-reg js-reg" target="_blank" statistic="GTnews_bottom_register">注册</a></span></div><div class="tie-post-form" id="tiePostBox" style=""><form target="_blank" method="post" action="" class="js-postForm"><div class="tie-post-area"><div class="post-area-photo js-ularea-photo"><a href="javascript:;" target="_self" title="请登录" class="tie-sprite area-photo-nohover"></a></div><div class="post-area-input js-postinput"><textarea rows="8" cols="80" class="tie-textarea js-postBox" name="content"></textarea><div class="area-input-tips js-tie-tips" style="display: block;">文明上网，登录发贴</div><input class="js-tie-parent-id" type="hidden" name="parentId" value="" /></div></div></form><div class="tie-login-submit js-tie-author"><div class="js-unlogin"><form method="post" action="https://reg.163.com/logins.jsp" target="tie_util_frame"><div class="js-loginInput"><div class="author-name"><em class="tie-sprite"></em><input type="text" name="username" class="tie-textbox js-username" placeholder="账号" /></div><div class="author-pwd"><em class="tie-sprite"></em><input type="password" name="password" class="tie-textbox js-password" placeholder="密码" /></div></div><span class="login-result"></span><div class="tie-author-login"><input type="checkbox" name="savelogin" checked="checked" value="1" class="js-save" /><span class="auto-login-txt">自动登录</span><a href="javascript:void(0);" target="_self" class="tie-sprite post-btn js-loginPostBtn">登录并发表</a></div></form></div></div></div><p class="tie-reminder" style="">网友评论仅供其表达个人看法，并不表明网易立场。</p></div></div>
+<script src="http://static.ws.126.net/f2e/products/tie/js/_tiesdk.jDtVnAgvZBZ1.6.js"></script>
+<link rel="stylesheet" type="text/css" href="http://static.ws.126.net/f2e/products/tie/default.1180555.css" />
+<script>
+"use strict";
+// special_comment_nodejs.vm
+;(function(){
+        if ( window.isShowComments === undefined ) { window.isShowComments = true; }
+        if (typeof isForceShowComment != "undefined") {
+            isShowComments = isForceShowComment;
+        };
+	var config = {
+		"productKey" : "a2869674571f77b5a0867c3d71db5856",
+		"docId" :  "SPEC0085700R2O20",
+		"target" : document.getElementById("comment-jssdk-target"),
+		"operators": ["up", "down", "reply", "share"],
+		"showPaging": false,
+                "isShowComments": isShowComments,
+		"hotSize": 3,
+		"newSize": 10,
+                "submitType": "commentPage"
+	};
+	Tie.init(config, function(data) {
+	    Tie.api.buildPage();
+	});
+})();
+</script>
+                    <!-- 跟贴区 End-->
+                </div>
+            </div>
+        </div>
+        <div class="g-sd" style="width:275px;">
+            <div class="m-cteacher">
+              <h3>讲师介绍</h3>
+              <span class="blank9"></span>
+              <div class="rightContent">   <div class="picText">
+ <img src="http://static.ws.126.net/video/2011/3/25/201103251758010dfd2.jpg" width="120" height="90" style="border:1px  solid #484848" />  <span class="blank9"></span>
+ <h6>讲师：<span class="fB cdY">Gilbert Strang</span></h6> 
+ <h6>职业：<span class="fB">麻省理工学院教授</span></h6> 
+ <span class="blank9"></span>
+ <span class="cdblan"></span>
+</div>
+</div>
+            </div>
+            <div class="m-ccollege">
+              <h3>学院介绍</h3>
+              <span class="blank9"></span>
+              <div class="cContent">麻省理工学院是美国一所综合性私立大学，有“世界理工大学之最”的美名。</div>
+            </div>
+            <div class="m-client" style="margin-top:15px;border-top: 1px solid #E8E8E8;padding-top:15px;">
+                <h3 style="font-size:14px;">公开课客户端下载</h3>
+                <div class="cnt f-cb" style="margin:10px 0;">
+                    <div class="inner"> 
+                        <div class="cl"></div>
+                        <a href="http://itunes.apple.com/cn/app/id415424368?mt=8" class="phone">iPhone</a>
+                        <a href="http://itunes.apple.com/cn/app/id415424368?mt=8" class="phone">iPad</a>
+                        <a href="http://file.ws.126.net/3g/client/netease_open_androidphone.apk" class="phone">Android</a>
+                        <a href="http://file.ws.126.net/3g/client/netease_open_androidpad.apk" class="phone phone-1">Android Pad</a>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--parea end-->
+    <form action="" id="addForm" target="syncFormIframe" method="get">
+        <input type="hidden" name="ursid" />
+        <input type="hidden" name="playid" />
+        <input type="hidden" name="movieid" />
+        <input type="hidden" name="storetime" />
+    </form>
+    <form action="http://so.open.163.com/open/dynamic/cinfo.do" id="colStatusForm" target="colStatusFormIframe" method="get">
+        <input type="hidden" name="ursid" value="" />
+        <input type="hidden" name="plid" value="" />
+    </form>
+    <form action="http://so.open.163.com/movie/store/webdelstore.do" id="cancelStoreForm" target="syncFormIframe" method="get">
+        <input type="hidden" name="ursid" />
+        <input type="hidden" name="playids" />
+        <input type="hidden" name="movieids" />
+    </form>
+    <div id="iframeWrapper">
+        <iframe frameborder="0" name="syncFormIframe" style="display:block; height:0"></iframe>
+        <iframe frameborder="0" name="colStatusFormIframe" style="display:block; height:0"></iframe>
+    </div>
+    <!-- 边栏 -->
+    
+    <!-- /边栏 -->
+    <!-- 左下角推荐 -->
+<div class="u-footertj f-dn" id="j-footertj">
+	<a class="pic f-pa" href="http://survey2.163.com/html/project_study_1/cover.html" target="_blank"></a>
+	<span class="close f-pa" id="j-footertj-close"></span>
+</div>
+<script type="text/javascript">
+	(function(){
+		document.getElementById('j-footertj-close').onclick = function(){
+			var tj = document.getElementById('j-footertj');
+			tj.parentNode.removeChild(tj);
+		}
+	})();
+</script>
+<!-- /左下角推荐 -->
+<!-- 所有页面通用footer -->
+<div class="m-footer">
+	<div class="g-container clear">
+		<p class="links">
+		    <a href="http://corp.163.com/eng/about/overview.html" target="_blank">About NetEase</a><span>-</span>
+		    <a href="http://gb.corp.163.com/gb/about/overview.html" target="_blank">公司简介</a><span>-</span>
+		    <a href="http://gb.corp.163.com/gb/contactus.html" target="_blank">联系方式</a><span>-</span>
+		    <a href="http://hr.163.com/" target="_blank">招聘信息</a><span>-</span>
+		    <a href="http://help.163.com/" target="_blank">客户服务</a><span>-</span>
+		    <a href="http://gb.corp.163.com/gb/legal.html" target="_blank">相关法律</a><span>-</span>
+		    <a href="http://emarketing.163.com/" target="_blank">网络营销</a><span>-</span>
+		    <a href="http://sitemap.163.com/" target="_blank">网站地图</a><span>-</span>
+		    <a href="http://survey2.163.com/html/userexperience/cover.html" target="_blank">用户体验升级计划</a>
+		</p>
+		<p class="cr">
+		    中国大学视频公开课适用于《中华人民共和国著作权法》<br />
+		    中国大学视频公开课经高等教育出版社许可使用，TED、BBC、Coursera经版权方许可使用。未经书面允许，请勿转播<br />
+		    除非另有声明，本平台其它视频作品采用Creative Common知识共享署名-非商业性使用-相同方式共享 2.5 中国大陆许可协议进行许可 
+		</p>
+		<div class="theme"></div>
+	</div>
+</div>
+<!-- 所有页面通用footer end -->
+<!-- ga&devilfish -->
+<script src="//analytics.163.com/ntes.js" type="text/javascript"></script>
+<script type="text/javascript">
+            window.gaTrackPageview = '_trackPageview';
+	    window.gaTrackEvent = '_trackEvent';
+	    window.gaqStr = '_gaq';
+	    window._gaq = [];
+	    _gaq.push(['_setAccount', 'UA-41448977-1'],['_setLocalGifPath', '/UA-41448977-1/__utm.gif'],['_setLocalServerMode']);
+	    _gaq.push(['_trackPageview']);
+			(function() {
+				var ga = document.createElement('script'); 
+				ga.type = 'text/javascript'; 
+				ga.async = true;
+				ga.src = '//wr.da.netease.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; 
+				s.parentNode.insertBefore(ga, s);
+			})();
+	  	_ntes_nacc = "163v";
+		neteaseTracker &amp;&amp; neteaseTracker();
+		neteaseClickStat &amp;&amp; neteaseClickStat();
+</script>
+<!-- /ga&devilfish -->
+    <script src="http://s2.open.126.net/ocb/js/opencourse.min.js?_t=1449198595139" charset="UTF-8"></script><div class="m-sidebar  show"><div class="btn-group">		<a class="btn qrBtn" id="qrBtn" title="扫描二维码下载公开课APP">			<span class="qrCode">			扫描下载公开课APP			<img src="https://img2.cache.netease.com/f2e/video/open_index_2015_new/images/app_qrcode.png" alt="扫描下载公开课APP" />			</span>		</a>		<a class="btn fbBtn" href="//open.163.com/special/openadvice/" target="_blank" title="我要反馈">反馈</a>		<a class="btn scrollBtn" id="j-scrollBtn" title="回到顶部"></a>		</div></div>
+    <script type="text/javascript">
+    var openCourse = (function(_open){
+        var _play = {id:'M6V0BQC4M'};
+        var _movie = [];
+                        _movie[0] = {id:'M6V29E773'};
+                _movie[1] = {id:'M6V29EGPP'};
+                _movie[2] = {id:'M6V29FCHO'};
+                _movie[3] = {id:'M6V29F33S'};
+                _movie[4] = {id:'M6V29FRJK'};
+                _movie[5] = {id:'M6V2AB1B5'};
+                _movie[6] = {id:'M6V2ABAHH'};
+                _movie[7] = {id:'M6V2ABHV8'};
+                _movie[8] = {id:'M6V2ACDCT'};
+                _movie[9] = {id:'M6V2ADFDT'};
+                _movie[10] = {id:'M6V2AJS2T'};
+                _movie[11] = {id:'M6V2AIUTE'};
+                _movie[12] = {id:'M6V2AJ69K'};
+                _movie[13] = {id:'M6V2AJEMH'};
+                _movie[14] = {id:'M6V2AJLJU'};
+                _movie[15] = {id:'M6V2AOJPU'};
+                _movie[16] = {id:'M6V2AORLS'};
+                _movie[17] = {id:'M6V2AP150'};
+                _movie[18] = {id:'M6V2APP34'};
+                _movie[19] = {id:'M6V2AQ40C'};
+                _movie[20] = {id:'M6V2AV2R8'};
+                _movie[21] = {id:'M6V2AV6GL'};
+                _movie[22] = {id:'M6V2AVIBM'};
+                _movie[23] = {id:'M6V2AVOAV'};
+                _movie[24] = {id:'M7E4C9V6P'};
+                _movie[25] = {id:'M6V2AVUL4'};
+                _movie[26] = {id:'M6V2B4U77'};
+                _movie[27] = {id:'M6V2B5J3P'};
+                _movie[28] = {id:'M6V2B5OKE'};
+                _movie[29] = {id:'M6V2B5R1G'};
+                _movie[30] = {id:'M6V2B60PJ'};
+                _movie[31] = {id:'M6V2BA04Q'};
+                _movie[32] = {id:'M6V2BA6N8'};
+                _movie[33] = {id:'M6V2BADQ9'};
+                _movie[34] = {id:'M6V2BAN1H'};
+                 
+        _open.getPlay = function(){
+            return _play;
+        }
+        _open.getMovies = function () {
+            return _movie;
+        }
+        return _open;
+    })(openCourse||{});
+    </script>
+    <script src="http://s2.open.126.net/ocb/js/page/courseIndex.js?_t=1418026607072" charset="UTF-8"></script>
+    <!-- 前往云课堂 -->
+    <style>
+  .f-hide{text-indent:-9999px;overflow: hidden;}
+  .f-fl{float:left;}
+.ckcoll2{background:url(http://static.ws.126.net/video/2013/4/22/2013042211092411038.png) no-repeat 0 -7px;width:135px;}
+  .ckcoll2 .btn{width: 100%;height: 100%;}
+  .ckcoll2 .box{display:none;position: absolute;width: 186px;height: 52px;padding-bottom:10px;top: -61px;left:0;}
+  .ckcoll2 .box .nei{text-align:left;padding:5px 10px;background-color: #fffbde;border: 1px solid #d7b88a;border-radius: 4px;color: #666;line-height: 20px;box-shadow: 1px 1px 1px #ddd;}
+  .ckcoll2 .box .arr{position: absolute;z-index: 100;width: 20px;height: 20px;background:url('http://img5.cache.netease.com/video/2012/12/5/20121205161404a7f74.png') no-repeat 0 -138px;bottom: -9px;left: 20px;}
+  .ckcoll3 .box .arr{background:url('http://img2.cache.netease.com/video/2012/12/7/20121207110508edbb1.png') no-repeat -38px -138px;bottom: -9px;}
+  .ckcoll4 .box .arr{background:url('http://img2.cache.netease.com/video/2012/12/7/20121207110508edbb1.png') no-repeat -88px -138px;bottom: -9px;left:135px;}
+.f-fl{float:left;}
+.f-cb:after{clear:both;content:'.';display:block;height:0;visibility:hidden;}
+.f-cb{zoom:1;}
+.f-pr{position:relative;}
+</style>
+<form action="http://study.163.com/course/addOpenCourseRecord.htm" id="addYunForm" target="addYunFormIframe" method="get">
+<input type="hidden" name="pid" />
+<input type="hidden" name="from" value="opencourse" />
+</form>
+<div id="iframeWrapper">
+<iframe src="http://v.163.com/special/tedtest112716/" frameborder="0" name="addYunFormIframe" style="display:none"></iframe>
+</div>
+<!-- 用于新窗口打开云课堂任务页面 -->
+<form id="j-toYunTaskForm" action="http://study.163.com/taskDetail.htm" method="get" target="_blank">  
+    <input type="hidden" name="pid" />
+</form> 
+<script type="text/javascript" src="http://static.ws.126.net/v/open/index/js/jquery.blockUI.1.33.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function(jQuery) {
+  var _jq = jQuery,
+  _oc = openCourse,
+      user = _oc.isUser(),
+      _parentN = _jq('#j-addYunBtn'),
+      _btn = _parentN.children().eq(0);
+  _parentN.append('&lt;div class="box"&gt;&lt;div class="nei"&gt;去“网易云课堂”查看本课程对应的学习计划&lt;/div&gt;&lt;div class="arr"&gt;&lt;/div&gt;&lt;/div&gt;');
+  var _tips = _parentN.find('.box').eq(0);
+  _parentN.hover(function(_e){
+      var _tips = _jq(this).find('.box').eq(0);
+      _tips.stop().fadeIn(100);
+  },function(_e){
+      var _tips = _jq(this).find('.box').eq(0);
+      _tips.stop().fadeOut(100);
+  });
+  _parentN.click(function(_e){
+    var _src = _jq(_e.srcElement);
+    if((!_src.hasClass('box'))&amp;&amp;(!_src.hasClass('nei'))&amp;&amp;(!_src.hasClass('arr'))){
+    _e.stopPropagation();
+    //open url
+    //if(!!_oc.isUser()){
+        window.open('http://study.163.com/course/openCourseDetail.htm?pid='+_oc.getPlay().id,'_blank');
+    //}else{
+    //  _oc.loginWin();
+    //}
+    }
+  });
+});
+</script> 
+    <!-- 前往云课堂end -->
+
+<div id="x-URS1530894042270.503"></div></body></html>
