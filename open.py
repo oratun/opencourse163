@@ -117,7 +117,7 @@ class YouGet:
             for name in name_list:
                 if a in name:
                     # print(os.path.join(self.path, b), os.path.join(self.path, name))
-                    os.rename(os.path.join(self.path, b), os.path.join(self.path, name, '.mp4'))
+                    os.rename(os.path.join(self.path, b), os.path.join(self.path, name+'.mp4'))
 
     def get(self):
         # 多线程下载，最大重试次数3
